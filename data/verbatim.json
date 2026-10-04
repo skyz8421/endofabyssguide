@@ -1,0 +1,1 @@
+{"official-news":["Fixed issue with energy node doors where dying between destroying nodes would prevent doors from opening Fix will also unblock any users who have encountered this issue"]}

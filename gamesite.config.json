@@ -1,0 +1,124 @@
+{
+  "gsc": {
+    "property": "sc-domain:endofabyss.quest",
+    "origin": "https://endofabyss.quest",
+    "stopWords": [
+      "End of Abyss"
+    ]
+  },
+  "boilerplate": {
+    "pageTypes": {
+      "mechanics": [
+        "energy-node-door-not-opening",
+        "scanner",
+        "save-pods-and-death",
+        "map-and-backtracking"
+      ],
+      "platform answers": [
+        "platforms",
+        "steam",
+        "pc-requirements"
+      ],
+      "trust": [
+        "about",
+        "contact",
+        "sources",
+        "updates"
+      ],
+      "legal": [
+        "privacy",
+        "terms"
+      ]
+    },
+    "standalone": [
+      "index",
+      "404",
+      "_not-found",
+      "weapons",
+      "achievements",
+      "route-notes"
+    ]
+  },
+  "templateResidue": {
+    "sources": {
+      "waterparksimulatorgame": {
+        "path": "../../template/game/clones/09-own-approved/waterparksimulatorgame",
+        "forbid": [
+          "Waterpark Simulator",
+          "waterparksimulatorgame",
+          "G-ZWRWFVWPK8"
+        ]
+      }
+    },
+    "templateChoice": "../end_of_abyss/template-choice.md",
+    "notChosen": [
+      "gamewith-jp-monsterhunter",
+      "gamewith-pokemon-sv",
+      "grandwiki-fishsort",
+      "osrs-wiki",
+      "tiny-eden",
+      "tiny_eden",
+      "wanderburg-wiki"
+    ],
+    "sourcePaths": [
+      "app",
+      "components",
+      "lib",
+      "data",
+      "public",
+      "README.md",
+      "DEPLOY.md",
+      "AGENTS.md"
+    ],
+    "ownAdDocs": [
+      "300x250.html"
+    ],
+    "siblingDirNames": true,
+    "selfNames": [
+      "end_of_abyss",
+      "endofabyssguide"
+    ]
+  },
+  "ga4": {
+    "property": "557127279"
+  },
+  "clarity": {
+    "project": "ys7k0cht6x",
+    "sub": "3532621709916681"
+  },
+  "designDistinct": {
+    "darkWhy": "Official facility art measures L=.25: shadowy blue concrete, metallic rooms and a cyan scanner. Derived background #0b151e with brighter accessible scanner accent #4d9cb3; Anton is unused in the sibling heading registry."
+  },
+  "linkGraph": {
+    "homeLinkOnce": true
+  },
+  "ads": {
+    "mode": "adsterra",
+    "units": [
+      "300x250"
+    ],
+    "keyFiles": [
+      "data/ads.ts"
+    ],
+    "consent": {
+      "storageKey": "eoa-consent",
+      "grantedValue": "granted"
+    }
+  },
+  "quotes": {
+    "sourceFiles": [
+      "data/sources.json"
+    ]
+  },
+  "cleanTree": {
+    "ledgerArray": "",
+    "machineWritten": [
+      "data/epic.json",
+      "data/daily-signal.json",
+      "data/watch-state.json"
+    ]
+  },
+  "og": {
+    "siteName": "End of Abyss Guide"
+  }
+}

@@ -1,0 +1,5 @@
+'use client';
+import {useState} from 'react';
+import Image from 'next/image';
+const titles:Record<string,string>={'Y-XqdJAu4I0':'Where I Hide The Secrets · exploration with the creators','WQ3m9rcsbDk':'Entering the Facility · meet the creators','0o6dgKldjZc':'Resonating Frequencies · audio and sound design'};
+export function Video({id,priority=false}:{id:string;priority?:boolean}){const [play,setPlay]=useState(false);const title=titles[id];return <figure className="video"><div className="video-frame">{play?<iframe src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1`} title={title} allow="autoplay; encrypted-media; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen/>:<button aria-label={'Play '+title} onClick={()=>setPlay(true)}><Image src={'/art/'+id+'-thumb.jpg'} alt="" width={1280} height={720} priority={priority}/><span className="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg></span><span className="video-label">Watch the creator diary</span></button>}</div><figcaption>{title} · End of Abyss</figcaption></figure>}
