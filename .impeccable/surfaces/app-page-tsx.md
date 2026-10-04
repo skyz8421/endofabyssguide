@@ -25,4 +25,4 @@ FORM: Cinematic scene editing translated into a web reference directory; competi
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
-Unresolved decisions: no visual world or composition decision remains. Exact obtainable fonts are measured from the comp. Final responsive implementation, plan/asset review and independent finish review remain.
+Unresolved decisions: no visual world or composition decision remains. Implementation and six-fix independent verdict are complete. The user explicitly skipped the browser plan/asset review; no receipt exists. The native automatic responsive comparison and finish remain refused despite valid rendered review; preserve that unfinished workflow status.

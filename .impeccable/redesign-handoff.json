@@ -1,5 +1,5 @@
 {
-  "status": "implemented-release-verification",
+  "status": "implemented-deployed-with-workflow-pending",
   "workflow": "comp",
   "decision_key": "610a5d4d",
   "decision_url": "http://127.0.0.1:60037/",
@@ -58,5 +58,13 @@
     "finishExit": 2,
     "log": "../end_of_abyss/_raw/impeccable-finish-final.log",
     "reason": "automatic regional comparison refuses responsive; independent rendered review does not replace automatic acceptance"
+  },
+  "release": {
+    "url": "https://endofabyss.quest/",
+    "sourceCommit": "517e416",
+    "cloudflareVersion": "7cf39be1-c8d6-4671-ab7f-981190ff148d",
+    "rollback": "74143a66-0cb5-45b2-84d1-3856d1ce0c78",
+    "report": "../end_of_abyss/_review/redesign-release.md",
+    "liveQA": true
   }
 }
