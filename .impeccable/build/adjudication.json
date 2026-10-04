@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-04T06:26:58.737835+00:00",
+  "method": "Independent paired-crop review followed by documented correction and real production recapture; not an automatic tool pass.",
+  "reviewer": "/root/finish_review; Codex gpt-6-astra/high",
+  "initialReport": "../end_of_abyss/_review/impeccable-finish.md",
+  "finalVerdict": "../end_of_abyss/_review/impeccable-verdict.md",
+  "overall": 0.8781,
+  "automaticGatePassed": false,
+  "compAuthority": "unchanged",
+  "browserReceipt": null,
+  "rows": [
+    {
+      "region": "nav-guides",
+      "automaticVerdict": "drift",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Custom game icon and44px dropdown targets explicitly required.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/nav-guides.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "nav-notes",
+      "automaticVerdict": "drift",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Four real nav groups required; Return/Notes merge recorded in surface brief.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/nav-notes.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "nav-platforms",
+      "automaticVerdict": "drift",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Actual dropdown plus authored game icon required; entire group present.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/nav-platforms.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "summary-1",
+      "automaticVerdict": "missing",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Verified node-death guidance replaces synthesized copy per surface brief; full capture contains complete words.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/summary-1.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "arrow-1",
+      "automaticVerdict": "drift",
+      "adjudicatedVerdict": "match",
+      "reason": "Actual thin directional arrow present in the same column role.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/arrow-1.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "summary-2",
+      "automaticVerdict": "missing",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Verified Scanner guidance replaces unsupported level wording; full capture contains complete words.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/summary-2.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "entry-6",
+      "automaticVerdict": "contradicted",
+      "adjudicatedVerdict": "match",
+      "reason": "Same Completion checklist text and condensed hierarchy; crop width causes character mismatch.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/entry-6.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "arrow-6",
+      "automaticVerdict": "drift",
+      "adjudicatedVerdict": "match",
+      "reason": "Actual thin directional arrow present in the same column role.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/arrow-6.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "preview",
+      "automaticVerdict": "drift",
+      "adjudicatedVerdict": "match",
+      "reason": "Corrected object-position82%; figures and bridge fully visible in same sourced photograph.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/preview.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "helper-copy",
+      "automaticVerdict": "missing",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Existing true symptom guidance; different line count moves fixed crop, no missing content.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/helper-copy.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "symptom-label",
+      "automaticVerdict": "missing",
+      "adjudicatedVerdict": "match",
+      "reason": "Door symptom label visible in full capture; fixed box measures control edge after factual copy reflow.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/symptom-label.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "symptom-select",
+      "automaticVerdict": "missing",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Actual semantic select50px with visible value/border/arrow; native control rendering differs.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/symptom-select.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "notes-icon",
+      "automaticVerdict": "contradicted",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Opened-book vector in consistent1.7px icon system; user requires authored custom icons.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/notes-icon.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "notes-title",
+      "automaticVerdict": "contradicted",
+      "adjudicatedVerdict": "match",
+      "reason": "Return notebook complete in full capture, ranked display font; fixed crop position cuts current title.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/notes-title.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "notes-action",
+      "automaticVerdict": "contradicted",
+      "adjudicatedVerdict": "match",
+      "reason": "Real CTA, raised18px and wider1280 column; source box diff does not cover resulting actual full CTA.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/notes-action.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    },
+    {
+      "region": "notes-help",
+      "automaticVerdict": "missing",
+      "adjudicatedVerdict": "adaptation",
+      "reason": "Verified notebook next-objective prompt present; fixed box moved following true copy.",
+      "pairedCrop": ".impeccable/review/diff/hero/regions/notes-help.png",
+      "actualCapture": ".impeccable/review/hero-repro.png"
+    }
+  ],
+  "verdictScope": "All six material fixes resolved; independent scoring disposition ship. Original full review plus scored repairs, not a new full audit."
+}

@@ -1,0 +1,544 @@
+{
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 0,
+        "w": 1505,
+        "h": 63
+      },
+      "note": "Flat dark navigation surface and fine lower rule",
+      "container": true
+    },
+    {
+      "id": "brand",
+      "kind": "text",
+      "pixelBox": {
+        "x": 70,
+        "y": 17,
+        "w": 181,
+        "h": 29
+      },
+      "note": "END OF ABYSS brand letters"
+    },
+    {
+      "id": "nav-guides",
+      "kind": "control",
+      "pixelBox": {
+        "x": 829,
+        "y": 19,
+        "w": 47,
+        "h": 30
+      },
+      "note": "Guides dropdown navigation"
+    },
+    {
+      "id": "nav-weapons",
+      "kind": "control",
+      "pixelBox": {
+        "x": 920,
+        "y": 19,
+        "w": 63,
+        "h": 30
+      },
+      "note": "Weapons dropdown navigation"
+    },
+    {
+      "id": "nav-notes",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1025,
+        "y": 19,
+        "w": 130,
+        "h": 30
+      },
+      "note": "Return notes dropdown navigation"
+    },
+    {
+      "id": "nav-platforms",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1198,
+        "y": 19,
+        "w": 88,
+        "h": 30
+      },
+      "note": "Platforms dropdown navigation"
+    },
+    {
+      "id": "theme-toggle",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1377,
+        "y": 16,
+        "w": 57,
+        "h": 31
+      },
+      "note": "Oval outline theme switch with moon glyph"
+    },
+    {
+      "id": "scene",
+      "kind": "image",
+      "pixelBox": {
+        "x": 0,
+        "y": 63,
+        "w": 1505,
+        "h": 216
+      },
+      "note": "Official blue facility combat scene cropped as a wide horizontal panorama",
+      "bleed": true
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "pixelBox": {
+        "x": 69,
+        "y": 174,
+        "w": 324,
+        "h": 60
+      },
+      "note": "END OF ABYSS headline letters in a tall condensed face"
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1152,
+        "y": 213,
+        "w": 288,
+        "h": 22
+      },
+      "note": "Doors, weapons and return routes. subtitle"
+    },
+    {
+      "id": "row-1",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 279,
+        "w": 1140,
+        "h": 78
+      },
+      "note": "Flat orange selected directory row surface with a fine lower rule",
+      "container": true,
+      "reviewGroup": "directory-row"
+    },
+    {
+      "id": "entry-1",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 305,
+        "w": 367,
+        "h": 30
+      },
+      "note": "Energy node door will not open guide title",
+      "reviewGroup": "guide-title"
+    },
+    {
+      "id": "summary-1",
+      "kind": "text",
+      "pixelBox": {
+        "x": 530,
+        "y": 312,
+        "w": 447,
+        "h": 20
+      },
+      "note": "One line player question for Energy node door will not open",
+      "reviewGroup": "guide-summary"
+    },
+    {
+      "id": "arrow-1",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1067,
+        "y": 310,
+        "w": 25,
+        "h": 23
+      },
+      "note": "Thin right arrow link glyph",
+      "reviewGroup": "guide-arrow"
+    },
+    {
+      "id": "row-2",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 357,
+        "w": 1505,
+        "h": 70
+      },
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "container": true,
+      "reviewGroup": "directory-row"
+    },
+    {
+      "id": "entry-2",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 377,
+        "w": 370,
+        "h": 30
+      },
+      "note": "Scanner and door requirements guide title",
+      "reviewGroup": "guide-title"
+    },
+    {
+      "id": "summary-2",
+      "kind": "text",
+      "pixelBox": {
+        "x": 530,
+        "y": 385,
+        "w": 435,
+        "h": 20
+      },
+      "note": "One line player question for Scanner and door requirements",
+      "reviewGroup": "guide-summary"
+    },
+    {
+      "id": "arrow-2",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1067,
+        "y": 383,
+        "w": 25,
+        "h": 23
+      },
+      "note": "Thin right arrow link glyph",
+      "reviewGroup": "guide-arrow"
+    },
+    {
+      "id": "row-3",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 427,
+        "w": 1505,
+        "h": 69
+      },
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "container": true,
+      "reviewGroup": "directory-row"
+    },
+    {
+      "id": "entry-3",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 447,
+        "w": 269,
+        "h": 30
+      },
+      "note": "Find a missing weapon guide title",
+      "reviewGroup": "guide-title"
+    },
+    {
+      "id": "summary-3",
+      "kind": "text",
+      "pixelBox": {
+        "x": 530,
+        "y": 455,
+        "w": 345,
+        "h": 20
+      },
+      "note": "One line player question for Find a missing weapon",
+      "reviewGroup": "guide-summary"
+    },
+    {
+      "id": "arrow-3",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1067,
+        "y": 453,
+        "w": 25,
+        "h": 23
+      },
+      "note": "Thin right arrow link glyph",
+      "reviewGroup": "guide-arrow"
+    },
+    {
+      "id": "row-4",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 496,
+        "w": 1505,
+        "h": 70
+      },
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "container": true,
+      "reviewGroup": "directory-row"
+    },
+    {
+      "id": "entry-4",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 516,
+        "w": 357,
+        "h": 30
+      },
+      "note": "Save pods, death and supplies guide title",
+      "reviewGroup": "guide-title"
+    },
+    {
+      "id": "summary-4",
+      "kind": "text",
+      "pixelBox": {
+        "x": 530,
+        "y": 524,
+        "w": 466,
+        "h": 20
+      },
+      "note": "One line player question for Save pods, death and supplies",
+      "reviewGroup": "guide-summary"
+    },
+    {
+      "id": "arrow-4",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1067,
+        "y": 522,
+        "w": 25,
+        "h": 23
+      },
+      "note": "Thin right arrow link glyph",
+      "reviewGroup": "guide-arrow"
+    },
+    {
+      "id": "row-5",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 566,
+        "w": 1505,
+        "h": 69
+      },
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "container": true,
+      "reviewGroup": "directory-row"
+    },
+    {
+      "id": "entry-5",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 586,
+        "w": 257,
+        "h": 30
+      },
+      "note": "Map and backtracking guide title",
+      "reviewGroup": "guide-title"
+    },
+    {
+      "id": "summary-5",
+      "kind": "text",
+      "pixelBox": {
+        "x": 530,
+        "y": 594,
+        "w": 310,
+        "h": 20
+      },
+      "note": "One line player question for Map and backtracking",
+      "reviewGroup": "guide-summary"
+    },
+    {
+      "id": "arrow-5",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1067,
+        "y": 592,
+        "w": 25,
+        "h": 23
+      },
+      "note": "Thin right arrow link glyph",
+      "reviewGroup": "guide-arrow"
+    },
+    {
+      "id": "row-6",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 635,
+        "w": 1505,
+        "h": 71
+      },
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "container": true,
+      "reviewGroup": "directory-row"
+    },
+    {
+      "id": "entry-6",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 655,
+        "w": 250,
+        "h": 30
+      },
+      "note": "Completion checklist guide title",
+      "reviewGroup": "guide-title"
+    },
+    {
+      "id": "summary-6",
+      "kind": "text",
+      "pixelBox": {
+        "x": 530,
+        "y": 663,
+        "w": 339,
+        "h": 20
+      },
+      "note": "One line player question for Completion checklist",
+      "reviewGroup": "guide-summary"
+    },
+    {
+      "id": "arrow-6",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1067,
+        "y": 661,
+        "w": 25,
+        "h": 23
+      },
+      "note": "Thin right arrow link glyph",
+      "reviewGroup": "guide-arrow"
+    },
+    {
+      "id": "preview",
+      "kind": "image",
+      "pixelBox": {
+        "x": 1140,
+        "y": 279,
+        "w": 365,
+        "h": 78
+      },
+      "note": "Official blue suspended bridge scene used as directory preview",
+      "bleed": true
+    },
+    {
+      "id": "reading-field",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 706,
+        "w": 1505,
+        "h": 339
+      },
+      "note": "Flat pale reading field below the directory",
+      "container": true
+    },
+    {
+      "id": "helper-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 71,
+        "y": 742,
+        "w": 526,
+        "h": 41
+      },
+      "note": "What is keeping the door shut? helper heading"
+    },
+    {
+      "id": "helper-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 72,
+        "y": 803,
+        "w": 760,
+        "h": 94
+      },
+      "note": "Four lines of explanation beneath the door helper heading"
+    },
+    {
+      "id": "symptom-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 72,
+        "y": 930,
+        "w": 122,
+        "h": 20
+      },
+      "note": "Door symptom input label"
+    },
+    {
+      "id": "symptom-select",
+      "kind": "control",
+      "pixelBox": {
+        "x": 72,
+        "y": 955,
+        "w": 916,
+        "h": 50
+      },
+      "note": "Outlined door symptom select with Choose a symptom placeholder"
+    },
+    {
+      "id": "notes-rule",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 1052,
+        "y": 730,
+        "w": 1,
+        "h": 294
+      },
+      "note": "Fine vertical divider between helper and notebook"
+    },
+    {
+      "id": "notes-icon",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1104,
+        "y": 754,
+        "w": 49,
+        "h": 42
+      },
+      "note": "Small outlined book icon"
+    },
+    {
+      "id": "notes-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1171,
+        "y": 763,
+        "w": 162,
+        "h": 26
+      },
+      "note": "Return notebook heading"
+    },
+    {
+      "id": "notes-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1171,
+        "y": 803,
+        "w": 265,
+        "h": 84
+      },
+      "note": "Four line notebook introduction"
+    },
+    {
+      "id": "notes-action",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1171,
+        "y": 904,
+        "w": 262,
+        "h": 50
+      },
+      "note": "Muted teal Open return notebook link button"
+    },
+    {
+      "id": "notes-help",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1171,
+        "y": 967,
+        "w": 244,
+        "h": 38
+      },
+      "note": "Two lines of supporting notebook text"
+    }
+  ]
+}

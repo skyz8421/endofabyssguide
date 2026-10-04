@@ -4,3 +4,10 @@ out/
 .wrangler/
 .env*
 *.tsbuildinfo
+
+# Local redesign captures and interactive review sessions
+.impeccable/review/
+.impeccable/questions/
+.impeccable/build/map-v1/
+.impeccable/build/comp-grid.png
+.impeccable/build/font-match/

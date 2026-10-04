@@ -1,0 +1,542 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-04T04:45:09.459Z",
+  "comp": ".impeccable/mocks/scene-directory.png",
+  "direction": "337a9893",
+  "breakpoint": "1505x1045",
+  "artifact": "out/index.html",
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-10-04T04:45:09.459Z",
+      "closedAt": "2026-10-04T05:15:29.183Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/scene-directory.png",
+        "at": "2026-10-04T05:15:29.183Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-10-04T05:15:29.212Z",
+      "closedAt": "2026-10-04T05:25:11.882Z",
+      "attempts": 4,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "46 regions, 2 plates, 21 text regions measured",
+        "at": "2026-10-04T05:25:11.882Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "skipped",
+      "openedAt": "2026-10-04T05:25:11.882Z",
+      "closedAt": "2026-10-04T05:59:10.668978Z",
+      "attempts": 1,
+      "notes": [
+        {
+          "at": "2026-10-04T05:45:57.683Z",
+          "text": "User explicitly overrides the browser review checkpoint: 跳过审核页，直接开始确认实现. Chat confirms the selected comp, two official source images and semantic implementation plan. Browser receipt remains null; do not fabricate it. Keep comp authority and independently verify fidelity and all production checks."
+        }
+      ],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "2/2 plates",
+        "at": "2026-10-04T05:25:12.814Z"
+      },
+      "forced": null,
+      "userOverride": {
+        "instruction": "跳过审核页，直接开始确认实现",
+        "scope": "Browser plan/asset approval checkpoint only. Existing 2/2 plate scoring remains valid.",
+        "browserReceipt": null,
+        "receiptFabricated": false
+      }
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-10-04T05:59:10.668978Z",
+      "closedAt": null,
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region summary-1 is missing (detail 1%, structure 72%): the comp shows material the build does not",
+          "region summary-2 is missing (detail 0%, structure 65%): the comp shows material the build does not",
+          "region helper-copy is missing (detail 12%, structure 40%): the comp shows material the build does not",
+          "region symptom-label is missing (detail 0%, structure 27%): the comp shows material the build does not",
+          "region symptom-select is missing (detail 4%, structure 89%): the comp shows material the build does not",
+          "region notes-help is missing (detail 0%, structure 52%): the comp shows material the build does not",
+          "region entry-6 (text) is contradicted (structure 25%, detail added 13%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region notes-icon (control) is contradicted (structure 35%, detail added 15%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification",
+          "region notes-title (text) is contradicted (structure 24%, detail added 14%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region notes-action (control) is contradicted (structure 63%, detail added 38%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification",
+          "control nav-guides drifts to 54% (structure 52%, color 61%): open .impeccable/review/diff/hero/regions/nav-guides.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+          "control nav-notes drifts to 62% (structure 58%, color 87%): open .impeccable/review/diff/hero/regions/nav-notes.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+          "control nav-platforms drifts to 60% (structure 55%, color 86%): open .impeccable/review/diff/hero/regions/nav-platforms.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+          "control arrow-1 drifts to 62% (structure 74%, color 69%): open .impeccable/review/diff/hero/regions/arrow-1.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+          "control arrow-6 drifts to 60% (structure 66%, color 75%): open .impeccable/review/diff/hero/regions/arrow-6.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+        ],
+        "regionReasons": {
+          "summary-1": [
+            "region summary-1 is missing (detail 1%, structure 72%): the comp shows material the build does not"
+          ],
+          "summary-2": [
+            "region summary-2 is missing (detail 0%, structure 65%): the comp shows material the build does not"
+          ],
+          "helper-copy": [
+            "region helper-copy is missing (detail 12%, structure 40%): the comp shows material the build does not"
+          ],
+          "symptom-label": [
+            "region symptom-label is missing (detail 0%, structure 27%): the comp shows material the build does not"
+          ],
+          "symptom-select": [
+            "region symptom-select is missing (detail 4%, structure 89%): the comp shows material the build does not"
+          ],
+          "notes-help": [
+            "region notes-help is missing (detail 0%, structure 52%): the comp shows material the build does not"
+          ],
+          "entry-6": [
+            "region entry-6 (text) is contradicted (structure 25%, detail added 13%): the composition of this text region differs from the comp; re-derive it from the spec box"
+          ],
+          "notes-icon": [
+            "region notes-icon (control) is contradicted (structure 35%, detail added 15%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification"
+          ],
+          "notes-title": [
+            "region notes-title (text) is contradicted (structure 24%, detail added 14%): the composition of this text region differs from the comp; re-derive it from the spec box"
+          ],
+          "notes-action": [
+            "region notes-action (control) is contradicted (structure 63%, detail added 38%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification"
+          ],
+          "nav-guides": [
+            "control nav-guides drifts to 54% (structure 52%, color 61%): open .impeccable/review/diff/hero/regions/nav-guides.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+          ],
+          "nav-notes": [
+            "control nav-notes drifts to 62% (structure 58%, color 87%): open .impeccable/review/diff/hero/regions/nav-notes.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+          ],
+          "nav-platforms": [
+            "control nav-platforms drifts to 60% (structure 55%, color 86%): open .impeccable/review/diff/hero/regions/nav-platforms.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+          ],
+          "arrow-1": [
+            "control arrow-1 drifts to 62% (structure 74%, color 69%): open .impeccable/review/diff/hero/regions/arrow-1.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+          ],
+          "arrow-6": [
+            "control arrow-6 drifts to 60% (structure 66%, color 75%): open .impeccable/review/diff/hero/regions/arrow-6.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+          ]
+        },
+        "summary": "hero 88% (match)",
+        "score": 0.8781,
+        "verdict": "match",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/Users/yangzhixiong.521/Documents/projects/game-sites/endofabyssguide/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "symptom-label missing 33%",
+          "notes-title contradicted 38%",
+          "notes-icon contradicted 42%"
+        ],
+        "worstIds": [
+          "symptom-label",
+          "notes-title",
+          "notes-icon"
+        ],
+        "worstCrops": [
+          {
+            "id": "symptom-label",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.331,
+              "structure": 0.2738,
+              "color": 0.6962,
+              "colorIntersection": 0.441,
+              "paletteMatch": 0.8336,
+              "detail": 0,
+              "detailRaw": 0.0854,
+              "detailAdded": 0.2083,
+              "bands": 0.2
+            },
+            "file": ".impeccable/review/diff/hero/regions/symptom-label.png"
+          },
+          {
+            "id": "notes-title",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.3764,
+              "structure": 0.2399,
+              "color": 0.6439,
+              "colorIntersection": 0.4217,
+              "paletteMatch": 0.7636,
+              "detail": 0.5384,
+              "detailRaw": 0.6061,
+              "detailAdded": 0.1354,
+              "bands": 0.1467
+            },
+            "file": ".impeccable/review/diff/hero/regions/notes-title.png"
+          },
+          {
+            "id": "notes-icon",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4242,
+              "structure": 0.3474,
+              "color": 0.5493,
+              "colorIntersection": 0.2667,
+              "paletteMatch": 0.7015,
+              "detail": 0.3781,
+              "detailRaw": 0.451,
+              "detailAdded": 0.1458,
+              "bands": 0.5
+            },
+            "file": ".impeccable/review/diff/hero/regions/notes-icon.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 8 readings:",
+          "  text helper-copy: 2 lines in the build, 4 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text symptom-select: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text notes-copy: 3 lines in the build, 4 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text notes-help: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text nav-platforms: the face renders 32% heavier than the comp's (ink density 0.59 vs 0.45); drop a weight step or use the ranked face",
+          "  text summary-4: ink is #bfcece in the build, #848e8f in the comp; use the comp's colour",
+          "  text symptom-label: ink is #7a9898 in the build, #14151b in the comp; use the comp's colour",
+          "  text notes-help: its first line starts 14px lower than in the comp (14px vs 0px into the region box); the spacing above it is too large"
+        ],
+        "regionVerdicts": {
+          "header": "match",
+          "brand": "drift",
+          "nav-guides": "drift",
+          "nav-weapons": "drift",
+          "nav-notes": "drift",
+          "nav-platforms": "drift",
+          "theme-toggle": "drift",
+          "scene": "drift",
+          "headline": "drift",
+          "subtitle": "drift",
+          "row-1": "drift",
+          "entry-1": "drift",
+          "summary-1": "missing",
+          "arrow-1": "drift",
+          "row-2": "drift",
+          "entry-2": "drift",
+          "summary-2": "missing",
+          "arrow-2": "drift",
+          "row-3": "match",
+          "entry-3": "drift",
+          "summary-3": "drift",
+          "arrow-3": "drift",
+          "row-4": "match",
+          "entry-4": "drift",
+          "summary-4": "drift",
+          "arrow-4": "drift",
+          "row-5": "match",
+          "entry-5": "drift",
+          "summary-5": "drift",
+          "arrow-5": "drift",
+          "row-6": "drift",
+          "entry-6": "contradicted",
+          "summary-6": "drift",
+          "arrow-6": "drift",
+          "preview": "drift",
+          "reading-field": "match",
+          "helper-title": "drift",
+          "helper-copy": "missing",
+          "symptom-label": "missing",
+          "symptom-select": "missing",
+          "notes-rule": "match",
+          "notes-icon": "contradicted",
+          "notes-title": "contradicted",
+          "notes-copy": "drift",
+          "notes-action": "contradicted",
+          "notes-help": "missing"
+        },
+        "at": "2026-10-04T06:25:31.049Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text notes-action: cap height 10.5px in the build, 13.6px in the comp (-23%); set font-size so the cap height renders at 13.6px": 1,
+        "text helper-copy: 2 lines in the build, 4 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text symptom-select: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text notes-copy: 3 lines in the build, 4 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text notes-help: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text nav-platforms: the face renders 32% heavier than the comp's (ink density 0.59 vs 0.45); drop a weight step or use the ranked face": 2,
+        "text summary-4: ink is #bfcece in the build, #848e8f in the comp; use the comp's colour": 2,
+        "text symptom-label: ink is #7a9898 in the build, #14151b in the comp; use the comp's colour": 2,
+        "text notes-help: its first line starts 14px lower than in the comp (14px vs 0px into the region box); the spacing above it is too large": 2,
+        "chrome row-1: its ink is 59px tall in the build and 32px in the comp (+27px); match the height, not only the position": 2,
+        "chrome row-5: its rule sits 67px into the box in the comp and 1px in the build (-66px), so the strip is shorter than the comp's; match the height, not only the position": 2,
+        "chrome row-6: its rule sits 69px into the box in the comp and 1px in the build (-68px), so the strip is shorter than the comp's; match the height, not only the position": 2,
+        "chrome reading-field: its rule sits 248px into the box in the comp and 1px in the build (-247px), so the strip is shorter than the comp's; match the height, not only the position": 2,
+        "control symptom-select: its rule sits 1px into the box in the comp and 38px in the build (+37px), so the strip is taller than the comp's; match the height, not only the position": 2,
+        "control notes-action: its rule sits 23px into the box in the comp and 9px in the build (-14px), so the strip is shorter than the comp's; match the height, not only the position": 2
+      },
+      "history": [
+        {
+          "at": "2026-10-04T06:08:06.409Z",
+          "score": 0.8759,
+          "worstIds": [
+            "symptom-label",
+            "notes-title",
+            "notes-icon"
+          ],
+          "blockingReasons": [
+            "region summary-1 is missing (detail 1%, structure 72%): the comp shows material the build does not",
+            "region summary-2 is missing (detail 0%, structure 65%): the comp shows material the build does not",
+            "region helper-copy is missing (detail 12%, structure 40%): the comp shows material the build does not",
+            "region symptom-label is missing (detail 0%, structure 27%): the comp shows material the build does not",
+            "region symptom-select is missing (detail 4%, structure 89%): the comp shows material the build does not",
+            "region notes-action is missing (detail 0%, structure 63%): the comp shows material the build does not",
+            "region notes-help is missing (detail 0%, structure 52%): the comp shows material the build does not",
+            "region entry-6 (text) is contradicted (structure 25%, detail added 13%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "region notes-icon (control) is contradicted (structure 35%, detail added 15%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification",
+            "region notes-title (text) is contradicted (structure 24%, detail added 14%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "control nav-guides drifts to 54% (structure 52%, color 61%): open .impeccable/review/diff/hero/regions/nav-guides.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control nav-notes drifts to 62% (structure 58%, color 87%): open .impeccable/review/diff/hero/regions/nav-notes.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control nav-platforms drifts to 60% (structure 55%, color 86%): open .impeccable/review/diff/hero/regions/nav-platforms.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control arrow-1 drifts to 62% (structure 74%, color 69%): open .impeccable/review/diff/hero/regions/arrow-1.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control arrow-6 drifts to 60% (structure 66%, color 75%): open .impeccable/review/diff/hero/regions/arrow-6.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "The plan and asset review is not accepted for this build. Run /Users/yangzhixiong.521/.agents/skills/impeccable/scripts/impeccable component-review plan, then /Users/yangzhixiong.521/.agents/skills/impeccable/scripts/impeccable component-review capture --manifest .impeccable/review/components.json and /Users/yangzhixiong.521/.agents/skills/impeccable/scripts/impeccable component-review serve --session <session>, and wait for the user's decision. Write no page code before it is accepted."
+          ],
+          "regionVerdicts": {
+            "header": "match",
+            "brand": "drift",
+            "nav-guides": "drift",
+            "nav-weapons": "drift",
+            "nav-notes": "drift",
+            "nav-platforms": "drift",
+            "theme-toggle": "drift",
+            "scene": "drift",
+            "headline": "drift",
+            "subtitle": "drift",
+            "row-1": "drift",
+            "entry-1": "drift",
+            "summary-1": "missing",
+            "arrow-1": "drift",
+            "row-2": "drift",
+            "entry-2": "drift",
+            "summary-2": "missing",
+            "arrow-2": "drift",
+            "row-3": "match",
+            "entry-3": "drift",
+            "summary-3": "drift",
+            "arrow-3": "drift",
+            "row-4": "match",
+            "entry-4": "drift",
+            "summary-4": "drift",
+            "arrow-4": "drift",
+            "row-5": "match",
+            "entry-5": "drift",
+            "summary-5": "drift",
+            "arrow-5": "drift",
+            "row-6": "drift",
+            "entry-6": "contradicted",
+            "summary-6": "drift",
+            "arrow-6": "drift",
+            "preview": "drift",
+            "reading-field": "drift",
+            "helper-title": "drift",
+            "helper-copy": "missing",
+            "symptom-label": "missing",
+            "symptom-select": "missing",
+            "notes-rule": "match",
+            "notes-icon": "contradicted",
+            "notes-title": "contradicted",
+            "notes-copy": "drift",
+            "notes-action": "missing",
+            "notes-help": "missing"
+          },
+          "artifactHash": "695ce7b77b26"
+        },
+        {
+          "at": "2026-10-04T06:25:31.051Z",
+          "score": 0.8781,
+          "worstIds": [
+            "symptom-label",
+            "notes-title",
+            "notes-icon"
+          ],
+          "blockingReasons": [
+            "region summary-1 is missing (detail 1%, structure 72%): the comp shows material the build does not",
+            "region summary-2 is missing (detail 0%, structure 65%): the comp shows material the build does not",
+            "region helper-copy is missing (detail 12%, structure 40%): the comp shows material the build does not",
+            "region symptom-label is missing (detail 0%, structure 27%): the comp shows material the build does not",
+            "region symptom-select is missing (detail 4%, structure 89%): the comp shows material the build does not",
+            "region notes-help is missing (detail 0%, structure 52%): the comp shows material the build does not",
+            "region entry-6 (text) is contradicted (structure 25%, detail added 13%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "region notes-icon (control) is contradicted (structure 35%, detail added 15%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification",
+            "region notes-title (text) is contradicted (structure 24%, detail added 14%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "region notes-action (control) is contradicted (structure 63%, detail added 38%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification",
+            "control nav-guides drifts to 54% (structure 52%, color 61%): open .impeccable/review/diff/hero/regions/nav-guides.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control nav-notes drifts to 62% (structure 58%, color 87%): open .impeccable/review/diff/hero/regions/nav-notes.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control nav-platforms drifts to 60% (structure 55%, color 86%): open .impeccable/review/diff/hero/regions/nav-platforms.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control arrow-1 drifts to 62% (structure 74%, color 69%): open .impeccable/review/diff/hero/regions/arrow-1.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "control arrow-6 drifts to 60% (structure 66%, color 75%): open .impeccable/review/diff/hero/regions/arrow-6.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification",
+            "The plan and asset review is not accepted for this build. Run /Users/yangzhixiong.521/.agents/skills/impeccable/scripts/impeccable component-review plan, then /Users/yangzhixiong.521/.agents/skills/impeccable/scripts/impeccable component-review capture --manifest .impeccable/review/components.json and /Users/yangzhixiong.521/.agents/skills/impeccable/scripts/impeccable component-review serve --session <session>, and wait for the user's decision. Write no page code before it is accepted."
+          ],
+          "regionVerdicts": {
+            "header": "match",
+            "brand": "drift",
+            "nav-guides": "drift",
+            "nav-weapons": "drift",
+            "nav-notes": "drift",
+            "nav-platforms": "drift",
+            "theme-toggle": "drift",
+            "scene": "drift",
+            "headline": "drift",
+            "subtitle": "drift",
+            "row-1": "drift",
+            "entry-1": "drift",
+            "summary-1": "missing",
+            "arrow-1": "drift",
+            "row-2": "drift",
+            "entry-2": "drift",
+            "summary-2": "missing",
+            "arrow-2": "drift",
+            "row-3": "match",
+            "entry-3": "drift",
+            "summary-3": "drift",
+            "arrow-3": "drift",
+            "row-4": "match",
+            "entry-4": "drift",
+            "summary-4": "drift",
+            "arrow-4": "drift",
+            "row-5": "match",
+            "entry-5": "drift",
+            "summary-5": "drift",
+            "arrow-5": "drift",
+            "row-6": "drift",
+            "entry-6": "contradicted",
+            "summary-6": "drift",
+            "arrow-6": "drift",
+            "preview": "drift",
+            "reading-field": "match",
+            "helper-title": "drift",
+            "helper-copy": "missing",
+            "symptom-label": "missing",
+            "symptom-select": "missing",
+            "notes-rule": "match",
+            "notes-icon": "contradicted",
+            "notes-title": "contradicted",
+            "notes-copy": "drift",
+            "notes-action": "contradicted",
+            "notes-help": "missing"
+          },
+          "artifactHash": "4350a8bee935"
+        }
+      ]
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "sessionId": "01a1045f-ab75-7403-adea-5cdf46487658",
+  "plates": {
+    "scene": {
+      "id": "scene",
+      "file": "assets/plates/scene.png",
+      "status": "ok",
+      "assetHash": "38b5de93da6fba5a69eb8ff3a3791e04ac5c67f1315b7d79ebcc674b4739f605",
+      "regionHash": "41eef31fe18112877f6ff34bdb6136f157c2ad152e482c5622b9538eb10f933f",
+      "referenceHash": "540bb650a702fa2475291c448550458e8fb85b508568c2bf3ff7c3fc9f257055",
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 25776,
+        "totalPixels": 325080,
+        "remainingPixels": 299304,
+        "excludedFraction": 0.07929125138427465,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "headline",
+            "kind": "text",
+            "cropPx": {
+              "x": 69,
+              "y": 111,
+              "w": 324,
+              "h": 60
+            },
+            "pixels": 19440
+          },
+          {
+            "id": "subtitle",
+            "kind": "text",
+            "cropPx": {
+              "x": 1152,
+              "y": 150,
+              "w": 288,
+              "h": 22
+            },
+            "pixels": 6336
+          }
+        ],
+        "ignoredContainers": []
+      },
+      "compHash": "f5e55ae21edb6f6ea5656bd620db6713fa4bebde643c17df240eed713cc89798",
+      "size": "3840x2160",
+      "score": 0.7901
+    },
+    "preview": {
+      "id": "preview",
+      "file": "assets/plates/preview.png",
+      "status": "ok",
+      "assetHash": "bc0ce736e7d67aed6c8b75b90ff2dc7f99942ce038d50d6fbc2825a1b3536743",
+      "regionHash": "b5addaa4df7065d6bd0b884226548dd552f779bb3f677244afae37b3a2a5aaa7",
+      "referenceHash": "540bb650a702fa2475291c448550458e8fb85b508568c2bf3ff7c3fc9f257055",
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 0,
+        "totalPixels": 28470,
+        "remainingPixels": 28470,
+        "excludedFraction": 0.0,
+        "fullyExcluded": false,
+        "regions": [],
+        "ignoredContainers": []
+      },
+      "compHash": "f5e55ae21edb6f6ea5656bd620db6713fa4bebde643c17df240eed713cc89798",
+      "size": "3840x2160",
+      "score": 0.5415
+    }
+  }
+}

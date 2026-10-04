@@ -1,0 +1,213 @@
+{
+  "title": "End of Abyss · 重新设计",
+  "question": "先看三个完整方向，选择最值得继续打磨的一个。每个方案都保留真实攻略、工具、下拉导航和明暗切换。",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "深度图谱",
+      "kicker": "THE ROLL",
+      "lineage": "海洋地形参考图册的分层与索引",
+      "thesis": "让游戏的深蓝空间成为攻略索引的视觉框架，问题与下一步始终清晰。",
+      "palette": [
+        "#0b2429",
+        "#dce4d6",
+        "#a9c8b8",
+        "#f4f5ed"
+      ],
+      "materials": [
+        "官方设施图像",
+        "矿物色阅读面",
+        "清晰的图册字级"
+      ],
+      "viewport": "首屏左侧游戏标题与场景，右侧直接列攻略入口；下方进入工具与阅读区。",
+      "risk": "如果深度线条进入正文，会干扰阅读；只让其服务外框与索引。",
+      "raised": [
+        {
+          "from": "曝光记录",
+          "raise": "图片与阅读面严格分区，使用有限色阶。"
+        },
+        {
+          "from": "字母风暴",
+          "raise": "标题拥有明确尺度，正文保持安静。"
+        },
+        {
+          "from": "鞋盒索引",
+          "raise": "紧凑入口也有完整标题、摘要与动作。"
+        },
+        {
+          "from": "公共机构设计",
+          "raise": "用严密的留白和克制动效完成细节。"
+        },
+        {
+          "from": "唱片封套",
+          "raise": "色彩承担整片区域，避免零碎装饰。"
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/depth-atlas.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "远征手册",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "现代探险图册与游戏攻略手册",
+      "thesis": "用精确的目录、清晰的阅读面和真实游戏图像做可随时翻查的攻略站。",
+      "palette": [
+        "#152e39",
+        "#e3e9dd",
+        "#6b8e82",
+        "#f7f8f2"
+      ],
+      "materials": [
+        "大幅场景图",
+        "章节式入口",
+        "清晰的页边导航"
+      ],
+      "viewport": "图像占据左侧纵向区域，标题与紧凑攻略目录并列，阅读工具从下一屏自然接续。",
+      "risk": "最贴合攻略，但探险手册的熟悉感也更强，必须靠构图和细节拉开品质。",
+      "comp": ".impeccable/mocks/decision/expedition-manual.png"
+    },
+    {
+      "id": "challenger-film",
+      "label": "场景剪辑册",
+      "verdict": "competitive",
+      "lineage": "电影工作样片与连续镜头索引",
+      "thesis": "把游戏场景和攻略条目串成可直接查找的镜头目录。",
+      "palette": [
+        "#101617",
+        "#d08043",
+        "#f4f4eb",
+        "#5b786c"
+      ],
+      "materials": [
+        "真实场景横幅",
+        "镜头式连续入口",
+        "明确的焦点标记"
+      ],
+      "viewport": "紧凑导航后是游戏标题和场景带，六条攻略像镜头目录一样连续展开。",
+      "case": "游戏与电影的关联鲜明；需要收敛胶片装饰，保持熟悉的导航与阅读。",
+      "risk": "如果把胶片变成操作控件，会影响找答案的效率。",
+      "comp": ".impeccable/mocks/decision/scene-edit.png",
+      "hero": "https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail.webp"
+    },
+    {
+      "id": "exposure",
+      "label": "曝光记录",
+      "verdict": "declined",
+      "thesis": "借鉴照片与文字的明确分区。",
+      "palette": [
+        "#e8e8df",
+        "#171d1a",
+        "#a34870"
+      ],
+      "materials": [
+        "类型与布局纪律"
+      ],
+      "viewport": "保留标准导航和可读列，避免概念压过攻略。",
+      "risk": "与玩家查找攻略的场景不够贴合。",
+      "case": "在玩家认同与找答案速度两方面低于深度图谱。",
+      "kept": "有限色阶与阅读面纪律"
+    },
+    {
+      "id": "letters",
+      "label": "字母风暴",
+      "verdict": "declined",
+      "thesis": "大胆字体可以拥有尺度，但不改变指南的阅读顺序。",
+      "palette": [
+        "#fafaf5",
+        "#111817",
+        "#a7acaa"
+      ],
+      "materials": [
+        "类型与布局纪律"
+      ],
+      "viewport": "保留标准导航和可读列，避免概念压过攻略。",
+      "risk": "与玩家查找攻略的场景不够贴合。",
+      "case": "在玩家认同与找答案速度两方面低于深度图谱。",
+      "kept": "明确的标题尺度"
+    },
+    {
+      "id": "boxes",
+      "label": "盒端索引",
+      "verdict": "declined",
+      "thesis": "紧凑标签能提高索引密度，但盒子造型不服务游戏查找。",
+      "palette": [
+        "#a65b2d",
+        "#f4f4e8",
+        "#151815"
+      ],
+      "materials": [
+        "类型与布局纪律"
+      ],
+      "viewport": "保留标准导航和可读列，避免概念压过攻略。",
+      "risk": "与玩家查找攻略的场景不够贴合。",
+      "case": "在玩家认同与找答案速度两方面低于深度图谱。",
+      "kept": "紧凑条目中的完整信息"
+    },
+    {
+      "id": "civic",
+      "label": "机构刊物",
+      "verdict": "declined",
+      "thesis": "精密留白与克制运动值得保留，缎带与本游戏无关。",
+      "palette": [
+        "#f7f7fa",
+        "#1b1547",
+        "#6b5ce7"
+      ],
+      "materials": [
+        "类型与布局纪律"
+      ],
+      "viewport": "保留标准导航和可读列，避免概念压过攻略。",
+      "risk": "与玩家查找攻略的场景不够贴合。",
+      "case": "在玩家认同与找答案速度两方面低于深度图谱。",
+      "kept": "留白与动效精度"
+    },
+    {
+      "id": "sleeve",
+      "label": "唱片封套",
+      "verdict": "declined",
+      "thesis": "完整色域值得借鉴，封套式构图会遮住攻略任务。",
+      "palette": [
+        "#d17539",
+        "#278c8f",
+        "#ffffff"
+      ],
+      "materials": [
+        "类型与布局纪律"
+      ],
+      "viewport": "保留标准导航和可读列，避免概念压过攻略。",
+      "risk": "与玩家查找攻略的场景不够贴合。",
+      "case": "在玩家认同与找答案速度两方面低于深度图谱。",
+      "kept": "整片区域的色彩承诺"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "标准攻略门户",
+    "thesis": "把熟悉的攻略门户结构执行到精致程度。",
+    "palette": [
+      "#f2f4f0",
+      "#1b302d",
+      "#2e6256"
+    ],
+    "materials": [
+      "清晰目录",
+      "官方图像",
+      "标准阅读栏"
+    ],
+    "viewport": "紧凑首图与常规攻略目录，正文按标准内容列展开。",
+    "risk": "容易与其他攻略站接近，独特性较弱。",
+    "comp": ".impeccable/mocks/decision/standard-guide.png"
+  },
+  "steer": true
+}

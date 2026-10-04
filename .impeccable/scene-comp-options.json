@@ -1,0 +1,70 @@
+{
+  "title": "End of Abyss · 场景剪辑册构图",
+  "question": "风格已确定。这三张只比较目录与卡关工具的位置；选择最终构图后，按该稿实现整站。",
+  "options": [
+    {
+      "id": "scene-directory",
+      "label": "原稿 · 连续目录",
+      "thesis": "六条攻略按横向目录展开，卡关工具紧随其后。",
+      "palette": [
+        "#081619",
+        "#f7f7f5",
+        "#d18448",
+        "#08465b"
+      ],
+      "materials": [
+        "官方游戏图像",
+        "连续攻略目录",
+        "清晰的阅读面"
+      ],
+      "viewport": "紧凑导航、场景横幅、六条全宽攻略，然后是卡关工具与笔记。",
+      "risk": "查找最直接；手机需要缩短目录高度，确保工具不被推得太远。",
+      "comp": ".impeccable/mocks/scene-directory.png"
+    },
+    {
+      "id": "scene-reference-desk",
+      "label": "并列查阅台",
+      "thesis": "攻略目录和卡关工具在首屏并列。",
+      "palette": [
+        "#081619",
+        "#f7f7f5",
+        "#d18448",
+        "#08465b"
+      ],
+      "materials": [
+        "官方游戏图像",
+        "连续攻略目录",
+        "清晰的阅读面"
+      ],
+      "viewport": "横幅下面左侧连续目录，右侧是浅色工具与笔记栏。",
+      "risk": "桌面首屏可用性强；窄屏需要明确地重排两栏。",
+      "comp": ".impeccable/mocks/scene-reference-desk.png"
+    },
+    {
+      "id": "scene-door-first",
+      "label": "卡关优先",
+      "thesis": "将最明确的门问题放在首屏焦点。",
+      "palette": [
+        "#081619",
+        "#f7f7f5",
+        "#d18448",
+        "#08465b"
+      ],
+      "materials": [
+        "官方游戏图像",
+        "连续攻略目录",
+        "清晰的阅读面"
+      ],
+      "viewport": "橙色标题区域与真实场景并列，下面左工具右目录。",
+      "risk": "橙色区域更强；首页会更偏向正在卡关的玩家。",
+      "comp": ".impeccable/mocks/scene-door-first.png"
+    }
+  ],
+  "followup": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": false
+  },
+  "canon": false,
+  "steer": true
+}

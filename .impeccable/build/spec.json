@@ -1,0 +1,2947 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-04T05:17:40.987Z",
+  "comp": ".impeccable/mocks/scene-directory.png",
+  "warnings": [
+    "region header: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region scene: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region row-1: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region row-2: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region row-3: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region row-4: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region row-5: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region row-6: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region preview: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region reading-field: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1505,
+    "height": 1045
+  },
+  "aspect": 1.4402,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#081619",
+      "coverage": 0.5534
+    },
+    {
+      "hex": "#f7f7f5",
+      "coverage": 0.3276
+    },
+    {
+      "hex": "#d18448",
+      "coverage": 0.0555
+    },
+    {
+      "hex": "#08465b",
+      "coverage": 0.0464
+    },
+    {
+      "hex": "#283638",
+      "coverage": 0.0172
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0562,
+      "strength": 0.2667
+    },
+    {
+      "y": 0.1685,
+      "strength": 0.2216
+    },
+    {
+      "y": 0.2247,
+      "strength": 0.3508
+    },
+    {
+      "y": 0.2697,
+      "strength": 1
+    },
+    {
+      "y": 0.3034,
+      "strength": 0.2872
+    },
+    {
+      "y": 0.3371,
+      "strength": 0.7933
+    },
+    {
+      "y": 0.382,
+      "strength": 0.4788
+    },
+    {
+      "y": 0.4494,
+      "strength": 0.3765
+    },
+    {
+      "y": 0.5169,
+      "strength": 0.5094
+    },
+    {
+      "y": 0.5843,
+      "strength": 0.4084
+    },
+    {
+      "y": 0.6292,
+      "strength": 0.2112
+    },
+    {
+      "y": 0.6517,
+      "strength": 0.3408
+    },
+    {
+      "y": 0.6742,
+      "strength": 1
+    },
+    {
+      "y": 0.7191,
+      "strength": 0.4682
+    },
+    {
+      "y": 0.7528,
+      "strength": 0.4337
+    },
+    {
+      "y": 0.7978,
+      "strength": 0.3648
+    },
+    {
+      "y": 0.8315,
+      "strength": 0.3432
+    },
+    {
+      "y": 0.8652,
+      "strength": 0.318
+    },
+    {
+      "y": 0.9101,
+      "strength": 0.2057
+    }
+  ],
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "note": "Flat dark navigation surface and fine lower rule",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.0603
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1505,
+        "h": 63
+      },
+      "aspect": 23.8889,
+      "palette": [
+        {
+          "hex": "#081717",
+          "coverage": 0.9703
+        },
+        {
+          "hex": "#f2f2f2",
+          "coverage": 0.0147
+        },
+        {
+          "hex": "#404747",
+          "coverage": 0.0076
+        },
+        {
+          "hex": "#949b9b",
+          "coverage": 0.0045
+        },
+        {
+          "hex": "#babebe",
+          "coverage": 0.0029
+        }
+      ],
+      "detail": {
+        "energy": 16.4797
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "brand",
+      "kind": "text",
+      "note": "END OF ABYSS brand letters",
+      "grid": null,
+      "box": {
+        "x": 0.0465,
+        "y": 0.0163,
+        "w": 0.1203,
+        "h": 0.0278
+      },
+      "px": {
+        "x": 70,
+        "y": 17,
+        "w": 181,
+        "h": 29
+      },
+      "aspect": 6.2414,
+      "palette": [
+        {
+          "hex": "#091213",
+          "coverage": 0.643
+        },
+        {
+          "hex": "#f0f1f0",
+          "coverage": 0.1912
+        },
+        {
+          "hex": "#5f6666",
+          "coverage": 0.0795
+        },
+        {
+          "hex": "#999a9b",
+          "coverage": 0.044
+        },
+        {
+          "hex": "#373b3d",
+          "coverage": 0.0423
+        }
+      ],
+      "detail": {
+        "energy": 69.1674
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 27,
+          "inkIsDark": false,
+          "allCaps": true,
+          "advance": 0.3336,
+          "advTall": 0.3336,
+          "advX": null,
+          "gap": 0.2595,
+          "xRatio": null,
+          "stemW": 0.1114,
+          "contrast": 1.0941,
+          "serif": 1.7111,
+          "densTall": 0.5994,
+          "densX": null,
+          "weight": 0.5994
+        },
+        "widthClass": "compressed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "nav-guides",
+      "kind": "control",
+      "note": "Guides dropdown navigation",
+      "grid": null,
+      "box": {
+        "x": 0.5508,
+        "y": 0.0182,
+        "w": 0.0312,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 829,
+        "y": 19,
+        "w": 47,
+        "h": 30
+      },
+      "aspect": 1.5667,
+      "palette": [
+        {
+          "hex": "#0a1414",
+          "coverage": 0.6818
+        },
+        {
+          "hex": "#e2e2e2",
+          "coverage": 0.1169
+        },
+        {
+          "hex": "#f78d48",
+          "coverage": 0.0974
+        },
+        {
+          "hex": "#3d4343",
+          "coverage": 0.0584
+        },
+        {
+          "hex": "#a3a3a6",
+          "coverage": 0.0455
+        }
+      ],
+      "detail": {
+        "energy": 22.1801
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-weapons",
+      "kind": "control",
+      "note": "Weapons dropdown navigation",
+      "grid": null,
+      "box": {
+        "x": 0.6113,
+        "y": 0.0182,
+        "w": 0.0419,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 920,
+        "y": 19,
+        "w": 63,
+        "h": 30
+      },
+      "aspect": 2.1,
+      "palette": [
+        {
+          "hex": "#091516",
+          "coverage": 0.8143
+        },
+        {
+          "hex": "#bfc6c8",
+          "coverage": 0.0714
+        },
+        {
+          "hex": "#495353",
+          "coverage": 0.0667
+        },
+        {
+          "hex": "#7e8c8c",
+          "coverage": 0.0381
+        },
+        {
+          "hex": "#303040",
+          "coverage": 0.0095
+        }
+      ],
+      "detail": {
+        "energy": 17.7907
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-notes",
+      "kind": "control",
+      "note": "Return notes dropdown navigation",
+      "grid": null,
+      "box": {
+        "x": 0.6811,
+        "y": 0.0182,
+        "w": 0.0864,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 1025,
+        "y": 19,
+        "w": 130,
+        "h": 30
+      },
+      "aspect": 4.3333,
+      "palette": [
+        {
+          "hex": "#081616",
+          "coverage": 0.8876
+        },
+        {
+          "hex": "#aab4b6",
+          "coverage": 0.0596
+        },
+        {
+          "hex": "#2f3c3c",
+          "coverage": 0.0206
+        },
+        {
+          "hex": "#566163",
+          "coverage": 0.0206
+        },
+        {
+          "hex": "#82828e",
+          "coverage": 0.0115
+        }
+      ],
+      "detail": {
+        "energy": 21.8158
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-platforms",
+      "kind": "control",
+      "note": "Platforms dropdown navigation",
+      "grid": null,
+      "box": {
+        "x": 0.796,
+        "y": 0.0182,
+        "w": 0.0585,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 1198,
+        "y": 19,
+        "w": 88,
+        "h": 30
+      },
+      "aspect": 2.9333,
+      "palette": [
+        {
+          "hex": "#091617",
+          "coverage": 0.8333
+        },
+        {
+          "hex": "#bfcaca",
+          "coverage": 0.1033
+        },
+        {
+          "hex": "#8a9698",
+          "coverage": 0.0233
+        },
+        {
+          "hex": "#3d4343",
+          "coverage": 0.02
+        },
+        {
+          "hex": "#636b6d",
+          "coverage": 0.02
+        }
+      ],
+      "detail": {
+        "energy": 19.9239
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "theme-toggle",
+      "kind": "control",
+      "note": "Oval outline theme switch with moon glyph",
+      "grid": null,
+      "box": {
+        "x": 0.915,
+        "y": 0.0153,
+        "w": 0.0379,
+        "h": 0.0297
+      },
+      "px": {
+        "x": 1377,
+        "y": 16,
+        "w": 57,
+        "h": 31
+      },
+      "aspect": 1.8387,
+      "palette": [
+        {
+          "hex": "#091718",
+          "coverage": 0.7799
+        },
+        {
+          "hex": "#384344",
+          "coverage": 0.1627
+        },
+        {
+          "hex": "#f2f2f2",
+          "coverage": 0.0383
+        },
+        {
+          "hex": "#939398",
+          "coverage": 0.0144
+        },
+        {
+          "hex": "#282838",
+          "coverage": 0.0048
+        }
+      ],
+      "detail": {
+        "energy": 7.8034
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "scene",
+      "kind": "image",
+      "note": "Official blue facility combat scene cropped as a wide horizontal panorama",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0,
+        "y": 0.0603,
+        "w": 1,
+        "h": 0.2067
+      },
+      "px": {
+        "x": 0,
+        "y": 63,
+        "w": 1505,
+        "h": 216
+      },
+      "aspect": 6.9676,
+      "palette": [
+        {
+          "hex": "#081727",
+          "coverage": 0.4177
+        },
+        {
+          "hex": "#080d0d",
+          "coverage": 0.2645
+        },
+        {
+          "hex": "#09475c",
+          "coverage": 0.2308
+        },
+        {
+          "hex": "#0a2e2e",
+          "coverage": 0.0518
+        },
+        {
+          "hex": "#106e83",
+          "coverage": 0.0352
+        }
+      ],
+      "detail": {
+        "energy": 22.8377
+      },
+      "medium": "raster",
+      "plate": "assets/plates/scene.png",
+      "text": null
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "END OF ABYSS headline letters in a tall condensed face",
+      "grid": null,
+      "box": {
+        "x": 0.0458,
+        "y": 0.1665,
+        "w": 0.2153,
+        "h": 0.0574
+      },
+      "px": {
+        "x": 69,
+        "y": 174,
+        "w": 324,
+        "h": 60
+      },
+      "aspect": 5.4,
+      "palette": [
+        {
+          "hex": "#090f18",
+          "coverage": 0.6686
+        },
+        {
+          "hex": "#f4f5f5",
+          "coverage": 0.2573
+        },
+        {
+          "hex": "#3d474f",
+          "coverage": 0.0312
+        },
+        {
+          "hex": "#747d82",
+          "coverage": 0.026
+        },
+        {
+          "hex": "#c7cbd2",
+          "coverage": 0.017
+        }
+      ],
+      "detail": {
+        "energy": 70.5677
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 57.3,
+          "inkIsDark": false,
+          "allCaps": true,
+          "advance": 0.2792,
+          "advTall": 0.2792,
+          "advX": null,
+          "gap": 0.2443,
+          "xRatio": null,
+          "stemW": 0.0974,
+          "contrast": 1.0298,
+          "serif": 2.5302,
+          "densTall": 0.5946,
+          "densX": null,
+          "weight": 0.5946
+        },
+        "widthClass": "compressed",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Big Shoulders",
+          "weight": 300,
+          "fontSizePx": 72,
+          "source": "index",
+          "fp": {
+            "lines": 1,
+            "glyphs": 10,
+            "capHeightPx": 57.9,
+            "inkIsDark": true,
+            "allCaps": true,
+            "advance": 0.3628,
+            "advTall": 0.3628,
+            "advX": null,
+            "gap": 0.1555,
+            "xRatio": null,
+            "stemW": 0.098,
+            "contrast": 1.0718,
+            "serif": 2.3918,
+            "densTall": 0.5298,
+            "densX": null,
+            "weight": 0.5298
+          },
+          "stamp": "9ae9d2b84260"
+        }
+      }
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "note": "Doors, weapons and return routes. subtitle",
+      "grid": null,
+      "box": {
+        "x": 0.7654,
+        "y": 0.2038,
+        "w": 0.1914,
+        "h": 0.0211
+      },
+      "px": {
+        "x": 1152,
+        "y": 213,
+        "w": 288,
+        "h": 22
+      },
+      "aspect": 13.0909,
+      "palette": [
+        {
+          "hex": "#080e15",
+          "coverage": 0.7995
+        },
+        {
+          "hex": "#c2cacc",
+          "coverage": 0.0709
+        },
+        {
+          "hex": "#4f5d62",
+          "coverage": 0.0628
+        },
+        {
+          "hex": "#808c8e",
+          "coverage": 0.0481
+        },
+        {
+          "hex": "#212b3b",
+          "coverage": 0.0187
+        }
+      ],
+      "detail": {
+        "energy": 79.842
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 27,
+          "capHeightPx": 13.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5943,
+          "advTall": 0.52,
+          "advX": 0.5943,
+          "gap": 0.1486,
+          "xRatio": 0.7537,
+          "stemW": 0.1559,
+          "contrast": 1.1119,
+          "serif": null,
+          "densTall": 0.4876,
+          "densX": 0.529,
+          "weight": 0.4876
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "row-1",
+      "kind": "chrome",
+      "note": "Flat orange selected directory row surface with a fine lower rule",
+      "grid": null,
+      "container": true,
+      "reviewGroup": "directory-row",
+      "box": {
+        "x": 0,
+        "y": 0.267,
+        "w": 0.7575,
+        "h": 0.0746
+      },
+      "px": {
+        "x": 0,
+        "y": 279,
+        "w": 1140,
+        "h": 78
+      },
+      "aspect": 14.6154,
+      "palette": [
+        {
+          "hex": "#d18448",
+          "coverage": 0.933
+        },
+        {
+          "hex": "#0f0e0f",
+          "coverage": 0.033
+        },
+        {
+          "hex": "#463223",
+          "coverage": 0.0194
+        },
+        {
+          "hex": "#94613d",
+          "coverage": 0.0123
+        },
+        {
+          "hex": "#6f442c",
+          "coverage": 0.0022
+        }
+      ],
+      "detail": {
+        "energy": 14.8378
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      }
+    },
+    {
+      "id": "entry-1",
+      "kind": "text",
+      "note": "Energy node door will not open guide title",
+      "grid": null,
+      "reviewGroup": "guide-title",
+      "box": {
+        "x": 0.0472,
+        "y": 0.2919,
+        "w": 0.2439,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 71,
+        "y": 305,
+        "w": 367,
+        "h": 30
+      },
+      "aspect": 12.2333,
+      "palette": [
+        {
+          "hex": "#d4834b",
+          "coverage": 0.5835
+        },
+        {
+          "hex": "#0c0c0d",
+          "coverage": 0.2143
+        },
+        {
+          "hex": "#8d5d3b",
+          "coverage": 0.1149
+        },
+        {
+          "hex": "#463221",
+          "coverage": 0.0856
+        },
+        {
+          "hex": "#c87858",
+          "coverage": 0.0016
+        }
+      ],
+      "detail": {
+        "energy": 79.5425
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 25,
+          "capHeightPx": 24.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4472,
+          "advTall": 0.3252,
+          "advX": 0.4472,
+          "gap": 0.122,
+          "xRatio": 0.7126,
+          "stemW": 0.1554,
+          "contrast": 1.2118,
+          "serif": 0.8911,
+          "densTall": 0.621,
+          "densX": 0.6952,
+          "weight": 0.621
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "summary-1",
+      "kind": "text",
+      "note": "One line player question for Energy node door will not open",
+      "grid": null,
+      "reviewGroup": "guide-summary",
+      "box": {
+        "x": 0.3522,
+        "y": 0.2986,
+        "w": 0.297,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 530,
+        "y": 312,
+        "w": 447,
+        "h": 20
+      },
+      "aspect": 22.35,
+      "palette": [
+        {
+          "hex": "#d4854a",
+          "coverage": 0.7635
+        },
+        {
+          "hex": "#2a211c",
+          "coverage": 0.101
+        },
+        {
+          "hex": "#5c402d",
+          "coverage": 0.0721
+        },
+        {
+          "hex": "#925f3a",
+          "coverage": 0.0596
+        },
+        {
+          "hex": "#180c18",
+          "coverage": 0.0038
+        }
+      ],
+      "detail": {
+        "energy": 48.0972
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 44,
+          "capHeightPx": 13.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5692,
+          "advTall": 0.3672,
+          "advX": 0.5876,
+          "gap": 0.1469,
+          "xRatio": 0.7171,
+          "stemW": 0.1589,
+          "contrast": 1.1038,
+          "serif": 0.497,
+          "densTall": 0.5187,
+          "densX": 0.5586,
+          "weight": 0.5187
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "arrow-1",
+      "kind": "control",
+      "note": "Thin right arrow link glyph",
+      "grid": null,
+      "reviewGroup": "guide-arrow",
+      "box": {
+        "x": 0.709,
+        "y": 0.2967,
+        "w": 0.0166,
+        "h": 0.022
+      },
+      "px": {
+        "x": 1067,
+        "y": 310,
+        "w": 25,
+        "h": 23
+      },
+      "aspect": 1.087,
+      "palette": [
+        {
+          "hex": "#d28549",
+          "coverage": 0.8333
+        },
+        {
+          "hex": "#583828",
+          "coverage": 0.0833
+        },
+        {
+          "hex": "#13130d",
+          "coverage": 0.0417
+        },
+        {
+          "hex": "#9d633d",
+          "coverage": 0.0417
+        }
+      ],
+      "detail": {
+        "energy": 4.6242
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "row-2",
+      "kind": "chrome",
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "grid": null,
+      "container": true,
+      "reviewGroup": "directory-row",
+      "box": {
+        "x": 0,
+        "y": 0.3416,
+        "w": 1,
+        "h": 0.067
+      },
+      "px": {
+        "x": 0,
+        "y": 357,
+        "w": 1505,
+        "h": 70
+      },
+      "aspect": 21.5,
+      "palette": [
+        {
+          "hex": "#091818",
+          "coverage": 0.8869
+        },
+        {
+          "hex": "#293536",
+          "coverage": 0.0658
+        },
+        {
+          "hex": "#f2f2f0",
+          "coverage": 0.0196
+        },
+        {
+          "hex": "#656c6d",
+          "coverage": 0.0165
+        },
+        {
+          "hex": "#a9b1b1",
+          "coverage": 0.0112
+        }
+      ],
+      "detail": {
+        "energy": 19.8077
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "entry-2",
+      "kind": "text",
+      "note": "Scanner and door requirements guide title",
+      "grid": null,
+      "reviewGroup": "guide-title",
+      "box": {
+        "x": 0.0472,
+        "y": 0.3608,
+        "w": 0.2458,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 71,
+        "y": 377,
+        "w": 370,
+        "h": 30
+      },
+      "aspect": 12.3333,
+      "palette": [
+        {
+          "hex": "#0a1415",
+          "coverage": 0.6901
+        },
+        {
+          "hex": "#f2f2f0",
+          "coverage": 0.2055
+        },
+        {
+          "hex": "#b0b4b2",
+          "coverage": 0.0429
+        },
+        {
+          "hex": "#414747",
+          "coverage": 0.0316
+        },
+        {
+          "hex": "#757978",
+          "coverage": 0.0299
+        }
+      ],
+      "detail": {
+        "energy": 127.3897
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 26,
+          "capHeightPx": 23.9,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.4599,
+          "advTall": 0.4808,
+          "advX": 0.4599,
+          "gap": 0.1254,
+          "xRatio": 0.6825,
+          "stemW": 0.152,
+          "contrast": 1.1285,
+          "serif": 0.9556,
+          "densTall": 0.5883,
+          "densX": 0.6774,
+          "weight": 0.5883
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "summary-2",
+      "kind": "text",
+      "note": "One line player question for Scanner and door requirements",
+      "grid": null,
+      "reviewGroup": "guide-summary",
+      "box": {
+        "x": 0.3522,
+        "y": 0.3684,
+        "w": 0.289,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 530,
+        "y": 385,
+        "w": 435,
+        "h": 20
+      },
+      "aspect": 21.75,
+      "palette": [
+        {
+          "hex": "#0a1515",
+          "coverage": 0.778
+        },
+        {
+          "hex": "#b5bfc1",
+          "coverage": 0.113
+        },
+        {
+          "hex": "#444c4c",
+          "coverage": 0.051
+        },
+        {
+          "hex": "#868d91",
+          "coverage": 0.044
+        },
+        {
+          "hex": "#6a6a79",
+          "coverage": 0.014
+        }
+      ],
+      "detail": {
+        "energy": 78.1911
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 43,
+          "capHeightPx": 14.9,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5045,
+          "advTall": 0.5382,
+          "advX": 0.5382,
+          "gap": 0.1345,
+          "xRatio": 0.6527,
+          "stemW": 0.1443,
+          "contrast": 1.0976,
+          "serif": 0.4228,
+          "densTall": 0.4438,
+          "densX": 0.5605,
+          "weight": 0.4438
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "arrow-2",
+      "kind": "control",
+      "note": "Thin right arrow link glyph",
+      "grid": null,
+      "reviewGroup": "guide-arrow",
+      "box": {
+        "x": 0.709,
+        "y": 0.3665,
+        "w": 0.0166,
+        "h": 0.022
+      },
+      "px": {
+        "x": 1067,
+        "y": 383,
+        "w": 25,
+        "h": 23
+      },
+      "aspect": 1.087,
+      "palette": [
+        {
+          "hex": "#0b1717",
+          "coverage": 0.8472
+        },
+        {
+          "hex": "#f8f8f3",
+          "coverage": 0.0972
+        },
+        {
+          "hex": "#808480",
+          "coverage": 0.0556
+        }
+      ],
+      "detail": {
+        "energy": 8.2902
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "row-3",
+      "kind": "chrome",
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "grid": null,
+      "container": true,
+      "reviewGroup": "directory-row",
+      "box": {
+        "x": 0,
+        "y": 0.4086,
+        "w": 1,
+        "h": 0.066
+      },
+      "px": {
+        "x": 0,
+        "y": 427,
+        "w": 1505,
+        "h": 69
+      },
+      "aspect": 21.8116,
+      "palette": [
+        {
+          "hex": "#081818",
+          "coverage": 0.9656
+        },
+        {
+          "hex": "#f6f6f5",
+          "coverage": 0.0135
+        },
+        {
+          "hex": "#979d9d",
+          "coverage": 0.0094
+        },
+        {
+          "hex": "#606666",
+          "coverage": 0.0066
+        },
+        {
+          "hex": "#c1cccc",
+          "coverage": 0.0049
+        }
+      ],
+      "detail": {
+        "energy": 15.2016
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": true
+      }
+    },
+    {
+      "id": "entry-3",
+      "kind": "text",
+      "note": "Find a missing weapon guide title",
+      "grid": null,
+      "reviewGroup": "guide-title",
+      "box": {
+        "x": 0.0472,
+        "y": 0.4278,
+        "w": 0.1787,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 71,
+        "y": 447,
+        "w": 269,
+        "h": 30
+      },
+      "aspect": 8.9667,
+      "palette": [
+        {
+          "hex": "#0a1415",
+          "coverage": 0.6897
+        },
+        {
+          "hex": "#f2f2f1",
+          "coverage": 0.2098
+        },
+        {
+          "hex": "#7c7e80",
+          "coverage": 0.0346
+        },
+        {
+          "hex": "#474d4d",
+          "coverage": 0.0335
+        },
+        {
+          "hex": "#bec4c0",
+          "coverage": 0.0324
+        }
+      ],
+      "detail": {
+        "energy": 103.9474
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 18,
+          "capHeightPx": 23.6,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.4547,
+          "advTall": 0.1692,
+          "advX": 0.4653,
+          "gap": 0.1481,
+          "xRatio": 0.6855,
+          "stemW": 0.154,
+          "contrast": 1.1441,
+          "serif": 0.983,
+          "densTall": 0.7406,
+          "densX": 0.6727,
+          "weight": 0.7406
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "summary-3",
+      "kind": "text",
+      "note": "One line player question for Find a missing weapon",
+      "grid": null,
+      "reviewGroup": "guide-summary",
+      "box": {
+        "x": 0.3522,
+        "y": 0.4354,
+        "w": 0.2292,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 530,
+        "y": 455,
+        "w": 345,
+        "h": 20
+      },
+      "aspect": 17.25,
+      "palette": [
+        {
+          "hex": "#0b1415",
+          "coverage": 0.7754
+        },
+        {
+          "hex": "#bac4c7",
+          "coverage": 0.0916
+        },
+        {
+          "hex": "#585f60",
+          "coverage": 0.0577
+        },
+        {
+          "hex": "#868c91",
+          "coverage": 0.0402
+        },
+        {
+          "hex": "#343e3f",
+          "coverage": 0.0351
+        }
+      ],
+      "detail": {
+        "energy": 81.0727
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 33,
+          "capHeightPx": 14.3,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.524,
+          "advTall": 0.524,
+          "advX": 0.5589,
+          "gap": 0.1223,
+          "xRatio": 0.6788,
+          "stemW": 0.1483,
+          "contrast": 1.1135,
+          "serif": null,
+          "densTall": 0.4899,
+          "densX": 0.5779,
+          "weight": 0.4899
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "arrow-3",
+      "kind": "control",
+      "note": "Thin right arrow link glyph",
+      "grid": null,
+      "reviewGroup": "guide-arrow",
+      "box": {
+        "x": 0.709,
+        "y": 0.4335,
+        "w": 0.0166,
+        "h": 0.022
+      },
+      "px": {
+        "x": 1067,
+        "y": 453,
+        "w": 25,
+        "h": 23
+      },
+      "aspect": 1.087,
+      "palette": [
+        {
+          "hex": "#0b1717",
+          "coverage": 0.8472
+        },
+        {
+          "hex": "#dadddd",
+          "coverage": 0.0972
+        },
+        {
+          "hex": "#484858",
+          "coverage": 0.0278
+        },
+        {
+          "hex": "#a0a8a8",
+          "coverage": 0.0278
+        }
+      ],
+      "detail": {
+        "energy": 8.1299
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "row-4",
+      "kind": "chrome",
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "grid": null,
+      "container": true,
+      "reviewGroup": "directory-row",
+      "box": {
+        "x": 0,
+        "y": 0.4746,
+        "w": 1,
+        "h": 0.067
+      },
+      "px": {
+        "x": 0,
+        "y": 496,
+        "w": 1505,
+        "h": 70
+      },
+      "aspect": 21.5,
+      "palette": [
+        {
+          "hex": "#081717",
+          "coverage": 0.8677
+        },
+        {
+          "hex": "#293838",
+          "coverage": 0.0807
+        },
+        {
+          "hex": "#f2f2f1",
+          "coverage": 0.02
+        },
+        {
+          "hex": "#272737",
+          "coverage": 0.0165
+        },
+        {
+          "hex": "#6b7373",
+          "coverage": 0.0151
+        }
+      ],
+      "detail": {
+        "energy": 22.0345
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "entry-4",
+      "kind": "text",
+      "note": "Save pods, death and supplies guide title",
+      "grid": null,
+      "reviewGroup": "guide-title",
+      "box": {
+        "x": 0.0472,
+        "y": 0.4938,
+        "w": 0.2372,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 71,
+        "y": 516,
+        "w": 357,
+        "h": 30
+      },
+      "aspect": 11.9,
+      "palette": [
+        {
+          "hex": "#0c1617",
+          "coverage": 0.6135
+        },
+        {
+          "hex": "#f4f5f3",
+          "coverage": 0.1772
+        },
+        {
+          "hex": "#7b7f7d",
+          "coverage": 0.0759
+        },
+        {
+          "hex": "#bec1c0",
+          "coverage": 0.07
+        },
+        {
+          "hex": "#414545",
+          "coverage": 0.0633
+        }
+      ],
+      "detail": {
+        "energy": 127.9255
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 24,
+          "capHeightPx": 22.9,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.481,
+          "advTall": 0.481,
+          "advX": 0.481,
+          "gap": 0.1312,
+          "xRatio": 0.6949,
+          "stemW": 0.1593,
+          "contrast": 1.1004,
+          "serif": 2.5291,
+          "densTall": 0.6037,
+          "densX": 0.6793,
+          "weight": 0.6037
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "summary-4",
+      "kind": "text",
+      "note": "One line player question for Save pods, death and supplies",
+      "grid": null,
+      "reviewGroup": "guide-summary",
+      "box": {
+        "x": 0.3522,
+        "y": 0.5014,
+        "w": 0.3096,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 530,
+        "y": 524,
+        "w": 466,
+        "h": 20
+      },
+      "aspect": 23.3,
+      "palette": [
+        {
+          "hex": "#0b1516",
+          "coverage": 0.772
+        },
+        {
+          "hex": "#848e8f",
+          "coverage": 0.1038
+        },
+        {
+          "hex": "#b9c0c1",
+          "coverage": 0.0463
+        },
+        {
+          "hex": "#565f60",
+          "coverage": 0.0426
+        },
+        {
+          "hex": "#384040",
+          "coverage": 0.0352
+        }
+      ],
+      "detail": {
+        "energy": 75.4272
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 45,
+          "capHeightPx": 13.6,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5894,
+          "advTall": 0.5526,
+          "advX": 0.5894,
+          "gap": 0.1105,
+          "xRatio": 0.7159,
+          "stemW": 0.1605,
+          "contrast": 1.0694,
+          "serif": null,
+          "densTall": 0.5056,
+          "densX": 0.5605,
+          "weight": 0.5056
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "arrow-4",
+      "kind": "control",
+      "note": "Thin right arrow link glyph",
+      "grid": null,
+      "reviewGroup": "guide-arrow",
+      "box": {
+        "x": 0.709,
+        "y": 0.4995,
+        "w": 0.0166,
+        "h": 0.022
+      },
+      "px": {
+        "x": 1067,
+        "y": 522,
+        "w": 25,
+        "h": 23
+      },
+      "aspect": 1.087,
+      "palette": [
+        {
+          "hex": "#0a1616",
+          "coverage": 0.8333
+        },
+        {
+          "hex": "#888888",
+          "coverage": 0.0833
+        },
+        {
+          "hex": "#434848",
+          "coverage": 0.0417
+        },
+        {
+          "hex": "#ede8e8",
+          "coverage": 0.0417
+        }
+      ],
+      "detail": {
+        "energy": 7.833
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "row-5",
+      "kind": "chrome",
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "grid": null,
+      "container": true,
+      "reviewGroup": "directory-row",
+      "box": {
+        "x": 0,
+        "y": 0.5416,
+        "w": 1,
+        "h": 0.066
+      },
+      "px": {
+        "x": 0,
+        "y": 566,
+        "w": 1505,
+        "h": 69
+      },
+      "aspect": 21.8116,
+      "palette": [
+        {
+          "hex": "#081818",
+          "coverage": 0.9544
+        },
+        {
+          "hex": "#f0f1f0",
+          "coverage": 0.0168
+        },
+        {
+          "hex": "#acb3b3",
+          "coverage": 0.013
+        },
+        {
+          "hex": "#666e6e",
+          "coverage": 0.009
+        },
+        {
+          "hex": "#363a3a",
+          "coverage": 0.0067
+        }
+      ],
+      "detail": {
+        "energy": 15.8303
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": true
+      }
+    },
+    {
+      "id": "entry-5",
+      "kind": "text",
+      "note": "Map and backtracking guide title",
+      "grid": null,
+      "reviewGroup": "guide-title",
+      "box": {
+        "x": 0.0472,
+        "y": 0.5608,
+        "w": 0.1708,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 71,
+        "y": 586,
+        "w": 257,
+        "h": 30
+      },
+      "aspect": 8.5667,
+      "palette": [
+        {
+          "hex": "#0b1415",
+          "coverage": 0.6797
+        },
+        {
+          "hex": "#f5f5f4",
+          "coverage": 0.2376
+        },
+        {
+          "hex": "#494d4e",
+          "coverage": 0.0461
+        },
+        {
+          "hex": "#c8cac7",
+          "coverage": 0.0225
+        },
+        {
+          "hex": "#979899",
+          "coverage": 0.0142
+        }
+      ],
+      "detail": {
+        "energy": 101.572
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 18,
+          "capHeightPx": 22.8,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.4708,
+          "advTall": 0.4927,
+          "advX": 0.4599,
+          "gap": 0.1314,
+          "xRatio": 0.6937,
+          "stemW": 0.1585,
+          "contrast": 1.1592,
+          "serif": 1.9448,
+          "densTall": 0.6051,
+          "densX": 0.6617,
+          "weight": 0.6051
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "summary-5",
+      "kind": "text",
+      "note": "One line player question for Map and backtracking",
+      "grid": null,
+      "reviewGroup": "guide-summary",
+      "box": {
+        "x": 0.3522,
+        "y": 0.5684,
+        "w": 0.206,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 530,
+        "y": 594,
+        "w": 310,
+        "h": 20
+      },
+      "aspect": 15.5,
+      "palette": [
+        {
+          "hex": "#0a1616",
+          "coverage": 0.765
+        },
+        {
+          "hex": "#bdc8c9",
+          "coverage": 0.0807
+        },
+        {
+          "hex": "#929a9c",
+          "coverage": 0.0709
+        },
+        {
+          "hex": "#434d4e",
+          "coverage": 0.0654
+        },
+        {
+          "hex": "#6d7476",
+          "coverage": 0.0181
+        }
+      ],
+      "detail": {
+        "energy": 76.3024
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 28,
+          "capHeightPx": 13.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.591,
+          "advTall": 0.591,
+          "advX": 0.591,
+          "gap": 0.1108,
+          "xRatio": 0.6917,
+          "stemW": 0.154,
+          "contrast": 1.1668,
+          "serif": 0.7417,
+          "densTall": 0.501,
+          "densX": 0.5634,
+          "weight": 0.501
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "arrow-5",
+      "kind": "control",
+      "note": "Thin right arrow link glyph",
+      "grid": null,
+      "reviewGroup": "guide-arrow",
+      "box": {
+        "x": 0.709,
+        "y": 0.5665,
+        "w": 0.0166,
+        "h": 0.022
+      },
+      "px": {
+        "x": 1067,
+        "y": 592,
+        "w": 25,
+        "h": 23
+      },
+      "aspect": 1.087,
+      "palette": [
+        {
+          "hex": "#0a1617",
+          "coverage": 0.8611
+        },
+        {
+          "hex": "#c2c4be",
+          "coverage": 0.1111
+        },
+        {
+          "hex": "#384848",
+          "coverage": 0.0139
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.0139
+        }
+      ],
+      "detail": {
+        "energy": 7.5144
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "row-6",
+      "kind": "chrome",
+      "note": "Flat dark directory row surface with a fine lower rule",
+      "grid": null,
+      "container": true,
+      "reviewGroup": "directory-row",
+      "box": {
+        "x": 0,
+        "y": 0.6077,
+        "w": 1,
+        "h": 0.0679
+      },
+      "px": {
+        "x": 0,
+        "y": 635,
+        "w": 1505,
+        "h": 71
+      },
+      "aspect": 21.1972,
+      "palette": [
+        {
+          "hex": "#091717",
+          "coverage": 0.9675
+        },
+        {
+          "hex": "#f5f5f4",
+          "coverage": 0.0132
+        },
+        {
+          "hex": "#606767",
+          "coverage": 0.0075
+        },
+        {
+          "hex": "#c2c8c8",
+          "coverage": 0.0061
+        },
+        {
+          "hex": "#949a9a",
+          "coverage": 0.0057
+        }
+      ],
+      "detail": {
+        "energy": 17.4774
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": true
+      }
+    },
+    {
+      "id": "entry-6",
+      "kind": "text",
+      "note": "Completion checklist guide title",
+      "grid": null,
+      "reviewGroup": "guide-title",
+      "box": {
+        "x": 0.0472,
+        "y": 0.6268,
+        "w": 0.1661,
+        "h": 0.0287
+      },
+      "px": {
+        "x": 71,
+        "y": 655,
+        "w": 250,
+        "h": 30
+      },
+      "aspect": 8.3333,
+      "palette": [
+        {
+          "hex": "#0b1415",
+          "coverage": 0.7061
+        },
+        {
+          "hex": "#f4f4f2",
+          "coverage": 0.2122
+        },
+        {
+          "hex": "#b2b4b3",
+          "coverage": 0.039
+        },
+        {
+          "hex": "#363b3d",
+          "coverage": 0.0232
+        },
+        {
+          "hex": "#878a8a",
+          "coverage": 0.0195
+        }
+      ],
+      "detail": {
+        "energy": 91.0065
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 19,
+          "capHeightPx": 23.7,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.4427,
+          "advTall": 0.1686,
+          "advX": 0.4638,
+          "gap": 0.1265,
+          "xRatio": 0.6694,
+          "stemW": 0.1538,
+          "contrast": 1.1578,
+          "serif": 1.4346,
+          "densTall": 0.74,
+          "densX": 0.6593,
+          "weight": 0.74
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "summary-6",
+      "kind": "text",
+      "note": "One line player question for Completion checklist",
+      "grid": null,
+      "reviewGroup": "guide-summary",
+      "box": {
+        "x": 0.3522,
+        "y": 0.6344,
+        "w": 0.2252,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 530,
+        "y": 663,
+        "w": 339,
+        "h": 20
+      },
+      "aspect": 16.95,
+      "palette": [
+        {
+          "hex": "#0b1415",
+          "coverage": 0.7411
+        },
+        {
+          "hex": "#bbc6c6",
+          "coverage": 0.0816
+        },
+        {
+          "hex": "#8d9798",
+          "coverage": 0.0791
+        },
+        {
+          "hex": "#5e6668",
+          "coverage": 0.0587
+        },
+        {
+          "hex": "#3d4144",
+          "coverage": 0.0395
+        }
+      ],
+      "detail": {
+        "energy": 86.5016
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 35,
+          "capHeightPx": 14.1,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5336,
+          "advTall": 0.5336,
+          "advX": 0.5692,
+          "gap": 0.1423,
+          "xRatio": 0.6916,
+          "stemW": 0.1494,
+          "contrast": 1.114,
+          "serif": null,
+          "densTall": 0.4985,
+          "densX": 0.5635,
+          "weight": 0.4985
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "arrow-6",
+      "kind": "control",
+      "note": "Thin right arrow link glyph",
+      "grid": null,
+      "reviewGroup": "guide-arrow",
+      "box": {
+        "x": 0.709,
+        "y": 0.6325,
+        "w": 0.0166,
+        "h": 0.022
+      },
+      "px": {
+        "x": 1067,
+        "y": 661,
+        "w": 25,
+        "h": 23
+      },
+      "aspect": 1.087,
+      "palette": [
+        {
+          "hex": "#0c1718",
+          "coverage": 0.8611
+        },
+        {
+          "hex": "#c3c6c6",
+          "coverage": 0.0972
+        },
+        {
+          "hex": "#e8e8e0",
+          "coverage": 0.0278
+        },
+        {
+          "hex": "#383838",
+          "coverage": 0.0139
+        }
+      ],
+      "detail": {
+        "energy": 7.8794
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "preview",
+      "kind": "image",
+      "note": "Official blue suspended bridge scene used as directory preview",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.7575,
+        "y": 0.267,
+        "w": 0.2425,
+        "h": 0.0746
+      },
+      "px": {
+        "x": 1140,
+        "y": 279,
+        "w": 365,
+        "h": 78
+      },
+      "aspect": 4.6795,
+      "palette": [
+        {
+          "hex": "#081f35",
+          "coverage": 0.4662
+        },
+        {
+          "hex": "#15416b",
+          "coverage": 0.2092
+        },
+        {
+          "hex": "#2883b2",
+          "coverage": 0.1711
+        },
+        {
+          "hex": "#081218",
+          "coverage": 0.0829
+        },
+        {
+          "hex": "#37a7ca",
+          "coverage": 0.0705
+        }
+      ],
+      "detail": {
+        "energy": 9.4641
+      },
+      "medium": "raster",
+      "plate": "assets/plates/preview.png",
+      "text": null
+    },
+    {
+      "id": "reading-field",
+      "kind": "chrome",
+      "note": "Flat pale reading field below the directory",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0.6756,
+        "w": 1,
+        "h": 0.3244
+      },
+      "px": {
+        "x": 0,
+        "y": 706,
+        "w": 1505,
+        "h": 339
+      },
+      "aspect": 4.4395,
+      "palette": [
+        {
+          "hex": "#f8f8f5",
+          "coverage": 0.9123
+        },
+        {
+          "hex": "#5a6766",
+          "coverage": 0.0375
+        },
+        {
+          "hex": "#a4aaaa",
+          "coverage": 0.0296
+        },
+        {
+          "hex": "#0a0a0a",
+          "coverage": 0.0148
+        },
+        {
+          "hex": "#4a4a5a",
+          "coverage": 0.0058
+        }
+      ],
+      "detail": {
+        "energy": 24.1514
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      }
+    },
+    {
+      "id": "helper-title",
+      "kind": "text",
+      "note": "What is keeping the door shut? helper heading",
+      "grid": null,
+      "box": {
+        "x": 0.0472,
+        "y": 0.71,
+        "w": 0.3495,
+        "h": 0.0392
+      },
+      "px": {
+        "x": 71,
+        "y": 742,
+        "w": 526,
+        "h": 41
+      },
+      "aspect": 12.8293,
+      "palette": [
+        {
+          "hex": "#f6f6f2",
+          "coverage": 0.5994
+        },
+        {
+          "hex": "#0a0a0a",
+          "coverage": 0.308
+        },
+        {
+          "hex": "#353534",
+          "coverage": 0.0371
+        },
+        {
+          "hex": "#989998",
+          "coverage": 0.0304
+        },
+        {
+          "hex": "#676767",
+          "coverage": 0.025
+        }
+      ],
+      "detail": {
+        "energy": 148.714
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 25,
+          "capHeightPx": 37.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4237,
+          "advTall": 0.3839,
+          "advX": 0.4237,
+          "gap": 0.1059,
+          "xRatio": 0.703,
+          "stemW": 0.1477,
+          "contrast": 1.1208,
+          "serif": 1.4017,
+          "densTall": 0.6029,
+          "densX": 0.7139,
+          "weight": 0.6029
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "helper-copy",
+      "kind": "text",
+      "note": "Four lines of explanation beneath the door helper heading",
+      "grid": null,
+      "box": {
+        "x": 0.0478,
+        "y": 0.7684,
+        "w": 0.505,
+        "h": 0.09
+      },
+      "px": {
+        "x": 72,
+        "y": 803,
+        "w": 760,
+        "h": 94
+      },
+      "aspect": 8.0851,
+      "palette": [
+        {
+          "hex": "#f6f6f2",
+          "coverage": 0.8285
+        },
+        {
+          "hex": "#50535a",
+          "coverage": 0.0796
+        },
+        {
+          "hex": "#b8baba",
+          "coverage": 0.0488
+        },
+        {
+          "hex": "#85878a",
+          "coverage": 0.0418
+        },
+        {
+          "hex": "#283838",
+          "coverage": 0.0012
+        }
+      ],
+      "detail": {
+        "energy": 48.7879
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 4,
+          "glyphs": 244,
+          "capHeightPx": 14.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5826,
+          "advTall": 0.3769,
+          "advX": 0.5937,
+          "gap": 0.1028,
+          "xRatio": 0.7088,
+          "stemW": 0.1543,
+          "contrast": 1.1275,
+          "serif": 0.6704,
+          "densTall": 0.5053,
+          "densX": 0.5473,
+          "weight": 0.5053
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "symptom-label",
+      "kind": "text",
+      "note": "Door symptom input label",
+      "grid": null,
+      "box": {
+        "x": 0.0478,
+        "y": 0.89,
+        "w": 0.0811,
+        "h": 0.0191
+      },
+      "px": {
+        "x": 72,
+        "y": 930,
+        "w": 122,
+        "h": 20
+      },
+      "aspect": 6.1,
+      "palette": [
+        {
+          "hex": "#f7f7f3",
+          "coverage": 0.6853
+        },
+        {
+          "hex": "#14151b",
+          "coverage": 0.1503
+        },
+        {
+          "hex": "#838487",
+          "coverage": 0.0664
+        },
+        {
+          "hex": "#c3c3c1",
+          "coverage": 0.0664
+        },
+        {
+          "hex": "#43444a",
+          "coverage": 0.0315
+        }
+      ],
+      "detail": {
+        "energy": 57.3738
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 13.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6482,
+          "advTall": 0.5762,
+          "advX": 0.6482,
+          "gap": 0.108,
+          "xRatio": 0.6988,
+          "stemW": 0.1938,
+          "contrast": 1.1965,
+          "serif": 0.4988,
+          "densTall": 0.5375,
+          "densX": 0.6027,
+          "weight": 0.5375
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "symptom-select",
+      "kind": "control",
+      "note": "Outlined door symptom select with Choose a symptom placeholder",
+      "grid": null,
+      "box": {
+        "x": 0.0478,
+        "y": 0.9139,
+        "w": 0.6086,
+        "h": 0.0478
+      },
+      "px": {
+        "x": 72,
+        "y": 955,
+        "w": 916,
+        "h": 50
+      },
+      "aspect": 18.32,
+      "palette": [
+        {
+          "hex": "#f8f8f5",
+          "coverage": 0.8603
+        },
+        {
+          "hex": "#9aa9a8",
+          "coverage": 0.1316
+        },
+        {
+          "hex": "#787878",
+          "coverage": 0.0048
+        },
+        {
+          "hex": "#282d2d",
+          "coverage": 0.0017
+        },
+        {
+          "hex": "#505050",
+          "coverage": 0.0015
+        }
+      ],
+      "detail": {
+        "energy": 12.5305
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "notes-rule",
+      "kind": "chrome",
+      "note": "Fine vertical divider between helper and notebook",
+      "grid": null,
+      "box": {
+        "x": 0.699,
+        "y": 0.6986,
+        "w": 0.0007,
+        "h": 0.2813
+      },
+      "px": {
+        "x": 1052,
+        "y": 730,
+        "w": 1,
+        "h": 294
+      },
+      "aspect": 0.0034,
+      "palette": [
+        {
+          "hex": "#d4d8ce",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 0.003
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": true
+      }
+    },
+    {
+      "id": "notes-icon",
+      "kind": "control",
+      "note": "Small outlined book icon",
+      "grid": null,
+      "box": {
+        "x": 0.7336,
+        "y": 0.7215,
+        "w": 0.0326,
+        "h": 0.0402
+      },
+      "px": {
+        "x": 1104,
+        "y": 754,
+        "w": 49,
+        "h": 42
+      },
+      "aspect": 1.1667,
+      "palette": [
+        {
+          "hex": "#f7f7f1",
+          "coverage": 0.4473
+        },
+        {
+          "hex": "#c7c6c3",
+          "coverage": 0.2068
+        },
+        {
+          "hex": "#383938",
+          "coverage": 0.1477
+        },
+        {
+          "hex": "#0b0b0b",
+          "coverage": 0.1181
+        },
+        {
+          "hex": "#747270",
+          "coverage": 0.0802
+        }
+      ],
+      "detail": {
+        "energy": 23.7474
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "notes-title",
+      "kind": "text",
+      "note": "Return notebook heading",
+      "grid": null,
+      "box": {
+        "x": 0.7781,
+        "y": 0.7301,
+        "w": 0.1076,
+        "h": 0.0249
+      },
+      "px": {
+        "x": 1171,
+        "y": 763,
+        "w": 162,
+        "h": 26
+      },
+      "aspect": 6.2308,
+      "palette": [
+        {
+          "hex": "#f7f7f3",
+          "coverage": 0.6226
+        },
+        {
+          "hex": "#0b0c0e",
+          "coverage": 0.283
+        },
+        {
+          "hex": "#9b9a9c",
+          "coverage": 0.0377
+        },
+        {
+          "hex": "#c7cdc9",
+          "coverage": 0.0294
+        },
+        {
+          "hex": "#5e6262",
+          "coverage": 0.0273
+        }
+      ],
+      "detail": {
+        "energy": 76.294
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 14,
+          "capHeightPx": 20.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4704,
+          "advTall": 0.4704,
+          "advX": 0.4704,
+          "gap": 0.099,
+          "xRatio": 0.7364,
+          "stemW": 0.1643,
+          "contrast": 1.1563,
+          "serif": 2.1421,
+          "densTall": 0.5874,
+          "densX": 0.6954,
+          "weight": 0.5874
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "notes-copy",
+      "kind": "text",
+      "note": "Four line notebook introduction",
+      "grid": null,
+      "box": {
+        "x": 0.7781,
+        "y": 0.7684,
+        "w": 0.1761,
+        "h": 0.0804
+      },
+      "px": {
+        "x": 1171,
+        "y": 803,
+        "w": 265,
+        "h": 84
+      },
+      "aspect": 3.1548,
+      "palette": [
+        {
+          "hex": "#f6f6f2",
+          "coverage": 0.8283
+        },
+        {
+          "hex": "#454a4e",
+          "coverage": 0.0669
+        },
+        {
+          "hex": "#7c7e80",
+          "coverage": 0.0621
+        },
+        {
+          "hex": "#b9babb",
+          "coverage": 0.0415
+        },
+        {
+          "hex": "#282838",
+          "coverage": 0.0012
+        }
+      ],
+      "detail": {
+        "energy": 59.1692
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 4,
+          "glyphs": 91,
+          "capHeightPx": 13.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5717,
+          "advTall": 0.5717,
+          "advX": 0.594,
+          "gap": 0.1114,
+          "xRatio": 0.7052,
+          "stemW": 0.1586,
+          "contrast": 1.1166,
+          "serif": 0.7289,
+          "densTall": 0.4903,
+          "densX": 0.5632,
+          "weight": 0.4903
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "notes-action",
+      "kind": "control",
+      "note": "Muted teal Open return notebook link button",
+      "grid": null,
+      "box": {
+        "x": 0.7781,
+        "y": 0.8651,
+        "w": 0.1741,
+        "h": 0.0478
+      },
+      "px": {
+        "x": 1171,
+        "y": 904,
+        "w": 262,
+        "h": 50
+      },
+      "aspect": 5.24,
+      "palette": [
+        {
+          "hex": "#556a68",
+          "coverage": 0.8743
+        },
+        {
+          "hex": "#f1f3f2",
+          "coverage": 0.0608
+        },
+        {
+          "hex": "#718d82",
+          "coverage": 0.0394
+        },
+        {
+          "hex": "#b0bebc",
+          "coverage": 0.0241
+        },
+        {
+          "hex": "#788898",
+          "coverage": 0.0013
+        }
+      ],
+      "detail": {
+        "energy": 24.9388
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "notes-help",
+      "kind": "text",
+      "note": "Two lines of supporting notebook text",
+      "grid": null,
+      "box": {
+        "x": 0.7781,
+        "y": 0.9254,
+        "w": 0.1621,
+        "h": 0.0364
+      },
+      "px": {
+        "x": 1171,
+        "y": 967,
+        "w": 244,
+        "h": 38
+      },
+      "aspect": 6.4211,
+      "palette": [
+        {
+          "hex": "#f7f7f3",
+          "coverage": 0.8329
+        },
+        {
+          "hex": "#909193",
+          "coverage": 0.0704
+        },
+        {
+          "hex": "#c6c7c7",
+          "coverage": 0.0685
+        },
+        {
+          "hex": "#676b72",
+          "coverage": 0.0272
+        },
+        {
+          "hex": "#484858",
+          "coverage": 0.0009
+        }
+      ],
+      "detail": {
+        "energy": 37.1167
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 40,
+          "capHeightPx": 11.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5804,
+          "advTall": 0.502,
+          "advX": 0.5804,
+          "gap": 0.0792,
+          "xRatio": 0.7625,
+          "stemW": 0.1694,
+          "contrast": 1.1812,
+          "serif": 0.8181,
+          "densTall": 0.507,
+          "densX": 0.5686,
+          "weight": 0.507
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    }
+  ],
+  "compSha256": "0212f7a2176b81cb0afbe60ef67b766db7b3c869028cbbf01b88214bbdc4209f",
+  "regionsSource": {
+    "path": ".impeccable/build/regions.json",
+    "sha256": "b16a116b0dc5838c8488388a80b4aa959dbcd3367fd80e2fa547d10dd6c4cd38"
+  }
+}
