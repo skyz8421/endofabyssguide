@@ -1,6 +1,6 @@
 {
  "note": "Written by page-freeze --record at the end of each deploy. Do not edit by hand.",
- "recordedAt": "2026-10-04T02:26:56.376Z",
+ "recordedAt": "2026-10-04T03:58:17.549Z",
  "log": [],
  "pages": {
   "about": {
@@ -45,8 +45,8 @@
    "canonical": "https://endofabyss.quest/",
    "robots": null,
    "description": "Get past energy doors, understand the Scanner and death costs, find all six weapons and keep your own return notes and completion checklist.",
-   "body": "3aecbb756851e34b",
-   "lastmod": "2026-10-04T08:00:00Z"
+   "body": "abbb21c82e95bc65",
+   "lastmod": "2026-10-04T03:56:00Z"
   },
   "map-and-backtracking": {
    "title": "End of Abyss map and backtracking: choose the next return",
