@@ -16,6 +16,7 @@ if '--ack' in sys.argv:
  if not r['clean']:print('Refusing acknowledgement with dirty source');sys.exit(1)
  if '--reason' not in sys.argv:print('Use --ack --reason <resolved evidence or published version>');sys.exit(2)
  reason=sys.argv[sys.argv.index('--reason')+1]
+ old['handledQueryKeys']=sorted(set(old.get('handledQueryKeys',[]))|{k for x in old.get('pendingSignals',[]) if x.get('type')=='qualified-gsc-query' for k in x.get('queryKeys',[])})
  old['pendingSignals']=[];old['lastAcknowledgement']={'date':str(today),'reason':reason}
  state_file.write_text(json.dumps(old,indent=2)+'\n');print('Acknowledged previously handled content signals');sys.exit(0)
 url='https://www.section9interactive.com/news'
@@ -32,7 +33,7 @@ try:
  r['officialInitialBaseline']=not old.get('officialHash')
  (SITE/'_review').mkdir(exist_ok=True);(SITE/'_review/official-news-latest.txt').write_text(text)
 except Exception as e:r['gaps'].append({'collector':'official-news','detail':str(e)})
-query={'startDate':str(today-datetime.timedelta(days=6)),'endDate':str(today),'dimensions':['query','page'],'dataState':'all','rowLimit':25000}
+query={'startDate':str(today-datetime.timedelta(days=7)),'endDate':str(today-datetime.timedelta(days=1)),'dimensions':['query','page'],'dataState':'all','rowLimit':25000}
 code,data=call('POST','https://searchconsole.googleapis.com/webmasters/v3/sites/'+urllib.parse.quote(policy['gsc'],safe='')+'/searchAnalytics/query','https://www.googleapis.com/auth/webmasters.readonly',query)
 valid=code==200 and isinstance(data,dict)
 if not valid:r['gaps'].append({'collector':'gsc','detail':'HTTP '+str(code)})
@@ -40,8 +41,14 @@ else:
  rows=data.get('rows',[]);r['gsc']={'dataState':'all','rows':len(rows),'impressions7d':sum(x.get('impressions',0) for x in rows),'clicks7d':sum(x.get('clicks',0) for x in rows),'status':'data' if rows else 'new-site-no-impressions-yet' if age<=3 else 'zero-rows-data-gap'}
  if not rows and age>3:r['gaps'].append({'collector':'gsc','detail':'zero rows after initial new-site window; not zero demand'})
  hits=[x for x in rows if x.get('impressions',0)>=25];r['qualifiedQueries']=hits
+ normalize=lambda q:re.sub(r'[^a-z0-9]+',' ',q.lower()).strip()
+ covered={normalize(x) for x in policy.get('coveredQueries',[])}
+ current_keys={normalize(x.get('keys',[''])[0]) for x in hits if x.get('keys')}
+ new_query_keys=sorted(current_keys-covered-set(old.get('handledQueryKeys',[])))
+ r['coveredQualifiedQueries']=sorted(current_keys & covered)
+ r['newUncoveredQueryKeys']=new_query_keys
  now_key=hashlib.sha256(json.dumps(sorted([x.get('keys',[]) for x in hits]),sort_keys=True).encode()).hexdigest()
- if hits and now_key!=old.get('qualifiedHash'):r['signals'].append({'type':'qualified-gsc-query','count':len(hits)})
+ if new_query_keys:r['signals'].append({'type':'qualified-gsc-query','queryKeys':new_query_keys,'instruction':'Confirm current sitemap coverage before content work; uncertain synonyms are leads, not automatic new pages.'})
 ads_source=(SITE/'data/ads.ts').read_text();live=bool(re.search(r"['\"]([0-9a-f]{32})['\"]",ads_source));r['adsLive']=live
 low=valid and bool(data.get('rows')) and r['gsc']['impressions7d']<policy['valueFilter']['retainImpressions7d'] and r['gsc']['clicks7d']<policy['valueFilter']['retainClicks7d']
 low_ticks=(old.get('lowValueTicks',0)+1) if low and old.get('lastTick')!=str(today) else old.get('lowValueTicks',0) if low else 0

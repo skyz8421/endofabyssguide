@@ -1,1 +1,41 @@
-{"launched":"2026-10-04","gsc":"sc-domain:endofabyss.quest","ga4":"557127279","clarity":"ys7k0cht6x","adDecisionDay":3,"adLatestDay":4,"valueFilter":{"implementationDefaults":true,"recentDays":14,"retainImpressions7d":100,"retainClicks7d":5,"lowValueConsecutiveTicks":7,"dormantCodeRecheckDays":7},"source":{"official":"https://www.section9interactive.com/news","epic":"https://store.epicgames.com/p/end-of-abyss"}}
+{
+  "launched": "2026-10-04",
+  "gsc": "sc-domain:endofabyss.quest",
+  "ga4": "557127279",
+  "clarity": "ys7k0cht6x",
+  "adDecisionDay": 3,
+  "adLatestDay": 4,
+  "valueFilter": {
+    "implementationDefaults": true,
+    "recentDays": 14,
+    "retainImpressions7d": 100,
+    "retainClicks7d": 5,
+    "lowValueConsecutiveTicks": 7,
+    "dormantCodeRecheckDays": 7
+  },
+  "source": {
+    "official": "https://www.section9interactive.com/news",
+    "epic": "https://store.epicgames.com/p/end-of-abyss"
+  },
+  "coveredQueries": [
+    "end of abyss",
+    "end of abyss guide",
+    "end of abyss wiki",
+    "end of abyss weapons",
+    "end of abyss weapon locations",
+    "end of abyss security rifle location",
+    "end of abyss scanner",
+    "end of abyss deep scan",
+    "end of abyss save pods",
+    "end of abyss restoration pods",
+    "end of abyss death penalty",
+    "end of abyss map and backtracking",
+    "end of abyss achievements",
+    "end of abyss trophies",
+    "end of abyss pc requirements",
+    "end of abyss system requirements",
+    "end of abyss steam",
+    "end of abyss platforms",
+    "end of abyss energy node door not opening"
+  ]
+}
