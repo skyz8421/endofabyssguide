@@ -1,4 +1,4 @@
 interface Env {ASSETS:{fetch:(request:Request)=>Promise<Response>}}
-const worker = {async fetch(request:Request,env:Env){const url=new URL(request.url);if(url.hostname==='www.endofabyss.quest'||url.protocol==='http:'){url.hostname='endofabyss.quest';url.protocol='https:';return Response.redirect(url.toString(),301)}return env.ASSETS.fetch(request)}};
+const worker = {async fetch(request:Request,env:Env){const url=new URL(request.url);if(url.hostname==='www.endofabyss.quest'||url.protocol==='http:'){url.hostname='endofabyss.quest';url.protocol='https:';return Response.redirect(url.toString(),301)}const response=await env.ASSETS.fetch(request);if(response.headers.get('content-type')?.includes('text/html')){const headers=new Headers(response.headers);const cache=headers.get('cache-control')||'public, max-age=0, must-revalidate';if(!cache.split(',').some(value=>value.trim()==='no-transform'))headers.set('Cache-Control',cache+', no-transform');return new Response(response.body,{status:response.status,statusText:response.statusText,headers})}return response}};
 
 export default worker;
