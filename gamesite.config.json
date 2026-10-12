@@ -71,7 +71,13 @@
       "AGENTS.md"
     ],
     "ownAdDocs": [
-      "300x250.html"
+      "300x250.html",
+      "728x90.html",
+      "320x50.html",
+      "160x300.html",
+      "160x600.html",
+      "468x60.html",
+      "native.html"
     ],
     "siblingDirNames": true,
     "selfNames": [
@@ -92,18 +98,36 @@
   "linkGraph": {
     "homeLinkOnce": true
   },
+  "noDates": {
+    "exemptRoutes": [
+      "achievements",
+      "weapons"
+    ]
+  },
   "ads": {
     "mode": "adsterra",
     "units": [
-      "300x250"
+      "728x90",
+      "300x250",
+      "320x50",
+      "160x300",
+      "160x600",
+      "468x60",
+      "native"
     ],
     "keyFiles": [
       "data/ads.ts"
     ],
     "consent": {
-      "storageKey": "eoa-consent",
+      "storageKey": "eoa-ads-consent",
       "grantedValue": "granted"
-    }
+    },
+    "hosts": [
+      "bauval.org"
+    ],
+    "frameAncestors": [
+      "https://endofabyss.quest"
+    ]
   },
   "quotes": {
     "sourceFiles": [

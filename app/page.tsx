@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {metadata} from '@/lib/site';
 import {DoorHelper} from '@/components/Tools';
 import {Video} from '@/components/Video';
-import {AdBanner} from '@/components/Ads';
+import {AdBanner,AdMid} from '@/components/Ads';
 
 export const generateMetadata=()=>metadata('End of Abyss Guide: doors, weapons and return routes','Get past energy doors, understand the Scanner and death costs, find all six weapons and keep your own return notes and completion checklist.');
 
@@ -45,6 +45,7 @@ export default function Home(){return <main className="home">
       <p className="notes-help">What were you going to do next?</p></div>
     </section>
   </div>
+  <AdBanner/>
   <div className="home-afterword">
     <section className="creator-diary" aria-labelledby="diary-title">
       <div><h2 id="diary-title">Inside the facility</h2><p>Meet the creators of End of Abyss.</p><p>Check a blocked path. Find your next weapon. Pick up where you left off.</p></div>
@@ -59,7 +60,7 @@ export default function Home(){return <main className="home">
       </div>
     </section>
     <p className="trust-line">For fixes that affect a blocked route, see <Link href="/updates/">patch changes</Link>. Learn <Link href="/about/">how this independent guide is maintained</Link>.</p>
-    <AdBanner/>
+    <AdMid/>
   </div>
   <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'WebSite',name:'End of Abyss Guide',url:'https://endofabyss.quest/'})}}/>
 </main>}
