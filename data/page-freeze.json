@@ -1,6 +1,6 @@
 {
  "note": "Written by page-freeze --record at the end of each deploy. Do not edit by hand.",
- "recordedAt": "2026-10-04T06:37:29.124Z",
+ "recordedAt": "2026-10-12T02:05:29.171Z",
  "log": [],
  "pages": {
   "about": {
@@ -18,8 +18,8 @@
    "canonical": "https://endofabyss.quest/achievements/",
    "robots": null,
    "description": "Track Epic completion goals for the Logbook, rooms, shuttle stations, Scanner, weapons and Suit Power without inventing hidden-item locations.",
-   "body": "a1c953ee660adfc6",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "body": "971a386c47a6109b",
+   "lastmod": "2026-10-12T00:00:00Z"
   },
   "contact": {
    "title": "Contact and corrections",
@@ -37,7 +37,7 @@
    "robots": null,
    "description": "Separate a powered-door puzzle from the interrupted-node bug. Check the fixed game version, scan connections and protect your existing save.",
    "body": "11f1a0aa628bb470",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "lastmod": "2026-10-12T01:34:49Z"
   },
   "index": {
    "title": "End of Abyss Guide: doors, weapons and return routes",
@@ -46,7 +46,7 @@
    "robots": null,
    "description": "Get past energy doors, understand the Scanner and death costs, find all six weapons and keep your own return notes and completion checklist.",
    "body": "5a4fa50382759a9a",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "lastmod": "2026-10-12T01:34:49Z"
   },
   "map-and-backtracking": {
    "title": "End of Abyss map and backtracking: choose the next return",
@@ -81,8 +81,8 @@
    "canonical": "https://endofabyss.quest/privacy/",
    "robots": null,
    "description": "Return notes and completion checkboxes are stored locally on your device. Optional analytics starts only after you allow it.",
-   "body": "5994da7a558c2b8e",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "body": "cd7998b2a7a16df5",
+   "lastmod": "2026-10-12T01:34:49Z"
   },
   "route-notes": {
    "title": "End of Abyss return notebook: save your next objective",
@@ -117,8 +117,8 @@
    "canonical": "https://endofabyss.quest/sources/",
    "robots": null,
    "description": "Developer, storefront and first-hand gameplay references behind this independent End of Abyss guide.",
-   "body": "1960b1932afb55c9",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "body": "74621a7afbfa905f",
+   "lastmod": "2026-10-11T00:00:00Z"
   },
   "steam": {
    "title": "Is End of Abyss on Steam? PC storefront explained",
@@ -143,9 +143,9 @@
    "h1": "Patch changes that affect your route",
    "canonical": "https://endofabyss.quest/updates/",
    "robots": null,
-   "description": "Check the fixed PS5, Xbox and PC versions for energy-node doors, Defibrillator revival freezes and map room or door-icon problems.",
-   "body": "7174993cf0d0d829",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "description": "Check the October 10 PS5, Xbox and PC patch for weapon achievement, elevator, map and progression fixes, with earlier door fixes by version.",
+   "body": "ed2606ce405a5b51",
+   "lastmod": "2026-10-11T23:02:00Z"
   },
   "weapons": {
    "title": "End of Abyss weapons: six-gun location lookup",
@@ -153,8 +153,8 @@
    "canonical": "https://endofabyss.quest/weapons/",
    "robots": null,
    "description": "Find Pulse Gun, Riot Breaker, Security Rifle, Support Gun, Incinerator and Particle Disruptor by sector and floor, with access dependencies.",
-   "body": "73c762f8b1f3fcf8",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "body": "fa086fc38324f867",
+   "lastmod": "2026-10-10T02:20:45Z"
   }
  }
 }
