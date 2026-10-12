@@ -13,6 +13,6 @@ function AdFrame({unit,anchor=false}:{unit:DisplayUnit;anchor?:boolean}){const {
 // Each size/key is mounted once; compact desktop uses 468 as its lead slot.
 export function AdBanner(){const {width}=useAds();return width>=1000?<AdFrame unit="leaderboard"/>:width>=768?<AdFrame unit="inline"/>:<AdFrame unit="rectangle"/>}
 export function AdMid(){const {width}=useAds();return width>=1000?<AdFrame unit="inline"/>:null}
-export function AdRail(){const {width,height}=useAds();return width>=1900?<div className="ad-rail"><AdFrame unit={height>=760?'railTall':'railCompact'}/></div>:null}
+export function AdRail(){const {width,height,route}=useAds();return route!=='/'&&width>=1900?<div className="ad-rail"><AdFrame unit={height>=760?'railTall':'railCompact'}/></div>:null}
 export function AdNative(){const {route,width}=useAds();return route==='/'||width<768?null:<div className="ad-native-wrap"><AdFrame unit="native"/></div>}
 export function AdSupport(){const {allowed,width}=useAds();useEffect(()=>{document.body.classList.toggle('has-mobile-ad',allowed&&width>=320&&width<768);return ()=>document.body.classList.remove('has-mobile-ad')},[allowed,width]);return <>{width>=320&&width<768&&<AdFrame unit="mobile" anchor/>}<AdRail/></>}
