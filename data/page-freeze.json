@@ -1,6 +1,6 @@
 {
  "note": "Written by page-freeze --record at the end of each deploy. Do not edit by hand.",
- "recordedAt": "2026-10-12T02:30:40.410Z",
+ "recordedAt": "2026-10-13T02:41:45.996Z",
  "log": [],
  "pages": {
   "about": {
@@ -45,8 +45,8 @@
    "canonical": "https://endofabyss.quest/",
    "robots": null,
    "description": "Get past energy doors, understand the Scanner and death costs, find all six weapons and keep your own return notes and completion checklist.",
-   "body": "5a4fa50382759a9a",
-   "lastmod": "2026-10-12T01:34:49Z"
+   "body": "8cbd6d79850d4cb0",
+   "lastmod": "2026-10-13T00:00:00Z"
   },
   "map-and-backtracking": {
    "title": "End of Abyss map and backtracking: choose the next return",
@@ -98,9 +98,9 @@
    "h1": "End of Abyss save pods and death: what costs supplies",
    "canonical": "https://endofabyss.quest/save-pods-and-death/",
    "robots": null,
-   "description": "Understand Restoration Pods, workbenches, ammunition loss and healing before using a difficult encounter as a practice loop.",
-   "body": "4bda2100b539cc50",
-   "lastmod": "2026-10-04T05:57:00Z"
+   "description": "Plan retry supplies, separate death costs from progression faults, and adjust repeated-dodge controls to your comfort.",
+   "body": "b9d309b5743c40f1",
+   "lastmod": "2026-10-13T00:00:00Z"
   },
   "scanner": {
    "title": "End of Abyss Scanner: doors, nodes and map marks",
@@ -117,8 +117,8 @@
    "canonical": "https://endofabyss.quest/sources/",
    "robots": null,
    "description": "Developer, storefront and first-hand gameplay references behind this independent End of Abyss guide.",
-   "body": "74621a7afbfa905f",
-   "lastmod": "2026-10-11T00:00:00Z"
+   "body": "b58cb1e1e689e63b",
+   "lastmod": "2026-10-13T00:00:00Z"
   },
   "steam": {
    "title": "Is End of Abyss on Steam? PC storefront explained",

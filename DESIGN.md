@@ -65,9 +65,9 @@ typography:
   display:
     fontFamily: "Big Shoulders, sans-serif"
     fontSize: "72px"
-    fontWeight: 300
+    fontWeight: 250
     lineHeight: 1
-    letterSpacing: ".04em"
+    letterSpacing: ".025em"
   headline:
     fontFamily: "Big Shoulders, sans-serif"
     fontSize: "clamp(42px,4.45vw,68px)"
@@ -82,8 +82,15 @@ typography:
   guide-title:
     fontFamily: "Big Shoulders, sans-serif"
     fontSize: "32px"
-    fontWeight: 600
+    fontWeight: 500
     lineHeight: 1.08
+    letterSpacing: "-.015em"
+  notebook-title:
+    fontFamily: "Big Shoulders, sans-serif"
+    fontSize: "28px"
+    fontWeight: 550
+    lineHeight: 1.2
+    letterSpacing: "-.02em"
   body:
     fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "16px"
@@ -210,10 +217,13 @@ The functional `focus`, `success` and `warning` tokens distinguish keyboard focu
 - **Headline:** reading-page h1 uses `headline`; it becomes 44px at 680px.
 - **Section:** general h2 uses `section`, becoming 32px at 680px. General h3 uses Big Shoulders (28px, weight 650, line height 1.12).
 - **Guide title:** `guide-title` becomes 27px at 1200px and 25px at 360px. At 680px its line height becomes 1.12.
+- **Notebook title:** `notebook-title` stays at 28px across the observed breakpoints, with its own lighter heading weight and tighter tracking.
 - **Body:** `body` carries general prose with a maximum reading measure supplied by `body-measure` where the content container applies it.
 - **Answer:** `answer` introduces the practical answer, at up to 64ch; mobile size is 18px.
 - **Label:** `label` identifies fields; support captions use 12–14px depending on the component. These are functional labels, not decorative heading preambles.
 - **Notebook action:** `notebook-action` reduces to 16px at 680px. The helper heading uses 44px / 42px / 39px / 36px at its observed desktop, 1200px, 680px and 360px states.
+
+Directory summaries use 16px at full desktop, 15px at 1200px and 16px again at 680px with a 1.55 line height. The mobile text is a readable description beneath the title.
 
 **The Two Voices Rule.** Use Big Shoulders for identity and heading hierarchy. Use the system stack for descriptions, answers, navigation and controls.
 
@@ -224,6 +234,8 @@ Use the shared fluid page gutter, switching to the mobile and compact gutters at
 The desktop directory places title, description and arrow across each ruled row; the first row includes a far-right image preview. In the 1001–1400px range, rows receive 12px vertical padding to accommodate wrapping. At 1000px the preview disappears and entries use a 43% title column, flexible description and 32px arrow. At 680px the description falls below the title; the arrow spans both lines and every row has a 106px minimum height with 19px vertical padding.
 
 The pale helper field uses a flexible main column and a notebook aside. Desktop proportions are 2.4:1 with a 280px minimum aside; at 1200px they become 2.25:1. The later 1001–1400px override takes precedence with a 2:1 grid, 320px minimum aside and 30px gap. At 1000px the helper and notebook stack, with the aside separated by a top rule. At 680px the notebook action fills its available column.
+
+Above 1000px, the door explanation reserves a minimum 94px reading space and grows with its content. Smaller layouts follow the paragraph's natural height.
 
 Forms use two equal columns with a 22px gap, switching to a single column and 18px gap at 680px. Tables scroll within their own wrapper. Breadcrumb home link and separator do not shrink; the final title can truncate. Diagram layouts vary with their information: three-column comparisons, two-column category groupings or ruled rows. Mobile diagrams become single-column.
 
@@ -246,6 +258,8 @@ Depth comes mainly from full-bleed imagery, continuous color fields and fine rul
 The recurring surface language is square: directory rows, tools, tables, image crops and the notebook link use flat edges. Inputs and ordinary buttons have only the control rounding from the frontmatter. The theme-switch track uses the switch rounding; the video play affordance is circular. These functional exceptions are established parts of the system, not permission to round every container.
 
 Thin solid rules define content divisions and operable field edges. Custom navigation, arrow, theme and notebook symbols use inline SVG. Image frames preserve intentional crops; desktop hero positioning is centered at 51%, the bridge preview at 82%, and the mobile hero at 58% horizontally.
+
+The open-book symbol uses a padded `viewBox="2 5 44 39"` so its rounded stroke and lower page edges remain complete; its displayed size follows the notebook grid at each breakpoint.
 
 ## Components
 

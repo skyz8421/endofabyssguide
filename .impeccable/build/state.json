@@ -485,8 +485,17 @@
       "status": "open",
       "openedAt": null,
       "closedAt": null,
-      "attempts": 1,
-      "notes": [],
+      "attempts": 4,
+      "notes": [
+        {
+          "at": "2026-10-13T01:58:22.111Z",
+          "text": "2026-10-13: original left comp unchanged. Same-frame first viewport 1505x1045 raw score0.9026 and zero missing; five contradicted font/icon pixel rows retained. Official comp_diff.rs globally shifts build region crops while side-by-side shows unshifted capture, producing false missing at1440. Reviewed actual desktop1280/1440/1505 and mobile320/390, both themes. No threshold edits, force, invented native acceptance or browser receipt."
+        },
+        {
+          "at": "2026-10-13T02:39:59.516Z",
+          "text": "2026-10-13: task-local standards-compatible native capture succeeded. User earlier explicitly requested skipping review page (跳过审核页，直接开始确认实现), honored without submitting or fabricating receipt. Native numerical responsive gate remains unresolved; local and native device functional QA and independent visual/material/source review pass. Production may proceed under user authorization; no claim native automatic ship."
+        }
+      ],
       "gate": {
         "ok": false,
         "reasons": [
@@ -498,17 +507,22 @@
           "at desktop width, region subtitle is missing",
           "at desktop width, region summary-1 is missing",
           "at desktop width, region arrow-1 is missing",
+          "at desktop width, region summary-2 is missing",
           "at desktop width, region arrow-2 is missing",
           "at desktop width, region summary-3 is missing",
           "at desktop width, region arrow-3 is missing",
+          "at desktop width, region symptom-label is missing",
+          "at desktop width, region symptom-select is missing",
+          "at desktop width, region notes-action is missing",
           "at desktop width, region theme-toggle (control) is contradicted (structure 48%)",
-          "at desktop width, region headline (text) is contradicted (structure 24%)",
-          "at desktop width, region entry-5 (text) is contradicted (structure 24%)",
-          "at desktop width, region entry-6 (text) is contradicted (structure 20%)",
-          "at desktop width, region notes-icon (control) is contradicted (structure 36%)",
-          "at desktop width, region notes-title (text) is contradicted (structure 18%)",
-          "at desktop width, region notes-action (control) is contradicted (structure 59%)",
-          "at desktop width, region notes-help (text) is contradicted (structure 49%)"
+          "at desktop width, region headline (text) is contradicted (structure 29%)",
+          "at desktop width, region entry-2 (text) is contradicted (structure 47%)",
+          "at desktop width, region summary-4 (text) is contradicted (structure 50%)",
+          "at desktop width, region entry-5 (text) is contradicted (structure 29%)",
+          "at desktop width, region notes-icon (control) is contradicted (structure 44%)",
+          "at desktop width, region notes-title (text) is contradicted (structure 24%)",
+          "at desktop width, region notes-copy (text) is contradicted (structure 43%)",
+          "at desktop width, region notes-help (text) is contradicted (structure 45%)"
         ],
         "regionReasons": {
           "brand": [
@@ -535,6 +549,9 @@
           "arrow-1": [
             "at desktop width, region arrow-1 is missing"
           ],
+          "summary-2": [
+            "at desktop width, region summary-2 is missing"
+          ],
           "arrow-2": [
             "at desktop width, region arrow-2 is missing"
           ],
@@ -544,36 +561,48 @@
           "arrow-3": [
             "at desktop width, region arrow-3 is missing"
           ],
+          "symptom-label": [
+            "at desktop width, region symptom-label is missing"
+          ],
+          "symptom-select": [
+            "at desktop width, region symptom-select is missing"
+          ],
+          "notes-action": [
+            "at desktop width, region notes-action is missing"
+          ],
           "theme-toggle": [
             "at desktop width, region theme-toggle (control) is contradicted (structure 48%)"
           ],
           "headline": [
-            "at desktop width, region headline (text) is contradicted (structure 24%)"
+            "at desktop width, region headline (text) is contradicted (structure 29%)"
+          ],
+          "entry-2": [
+            "at desktop width, region entry-2 (text) is contradicted (structure 47%)"
+          ],
+          "summary-4": [
+            "at desktop width, region summary-4 (text) is contradicted (structure 50%)"
           ],
           "entry-5": [
-            "at desktop width, region entry-5 (text) is contradicted (structure 24%)"
-          ],
-          "entry-6": [
-            "at desktop width, region entry-6 (text) is contradicted (structure 20%)"
+            "at desktop width, region entry-5 (text) is contradicted (structure 29%)"
           ],
           "notes-icon": [
-            "at desktop width, region notes-icon (control) is contradicted (structure 36%)"
+            "at desktop width, region notes-icon (control) is contradicted (structure 44%)"
           ],
           "notes-title": [
-            "at desktop width, region notes-title (text) is contradicted (structure 18%)"
+            "at desktop width, region notes-title (text) is contradicted (structure 24%)"
           ],
-          "notes-action": [
-            "at desktop width, region notes-action (control) is contradicted (structure 59%)"
+          "notes-copy": [
+            "at desktop width, region notes-copy (text) is contradicted (structure 43%)"
           ],
           "notes-help": [
-            "at desktop width, region notes-help (text) is contradicted (structure 49%)"
+            "at desktop width, region notes-help (text) is contradicted (structure 45%)"
           ]
         },
         "summary": "desktop 77% (drift)",
-        "score": 0.7666,
+        "score": 0.7702,
         "report": ".impeccable/review/diff/desktop/report.json",
         "sideBySide": "/Users/yangzhixiong.521/Documents/projects/game-sites/endofabyssguide/.impeccable/review/diff/desktop/side-by-side.png",
-        "at": "2026-10-04T06:30:45.856Z"
+        "at": "2026-10-13T01:57:08.846Z"
       },
       "forced": null,
       "closure": {
@@ -601,7 +630,12 @@
       ]
     }
   },
-  "finish": null,
+  "finish": {
+    "disposition": "fix",
+    "at": "2026-10-13T02:39:59.530Z",
+    "phaseAtFinish": "responsive",
+    "artifactSha256": "c181ef244e799f0c0e96c71226c5e685184f159c785c47de6013c9db6ebe749d"
+  },
   "sessionId": "01a1045f-ab75-7403-adea-5cdf46487658",
   "plates": {
     "scene": {

@@ -8,10 +8,10 @@ import {AdBanner,AdMid} from '@/components/Ads';
 export const generateMetadata=()=>metadata('End of Abyss Guide: doors, weapons and return routes','Get past energy doors, understand the Scanner and death costs, find all six weapons and keep your own return notes and completion checklist.');
 
 const routes = [
-  {slug:'energy-node-door-not-opening',title:'Energy node door will not open',description:'Died between destroying nodes? Check the fix before deleting your save.'},
-  {slug:'scanner',title:'Scanner and door requirements',description:'Read the door. Trace its power connection. Find the missing requirement.'},
+  {slug:'energy-node-door-not-opening',title:'Energy node door will not open',description:'Died mid-sequence? Check the door fix before restarting.'},
+  {slug:'scanner',title:'Scanner and door requirements',description:'Read door requirements and trace power connections.'},
   {slug:'weapons',title:'Find a missing weapon',description:'All six guns, with sector, floor and the named access tools.'},
-  {slug:'save-pods-and-death',title:'Save pods, death and supplies',description:'What revival restores, and which supplies you still need to replace.'},
+  {slug:'save-pods-and-death',title:'Save pods, death and supplies',description:'Revival, retry supplies and optional control comfort.'},
   {slug:'map-and-backtracking',title:'Map and backtracking',description:'Choose a return route you can finish with the equipment you own.'},
   {slug:'achievements',title:'Completion checklist',description:'Track Logbook, room, shuttle and equipment goals on this device.'},
 ];
@@ -38,11 +38,11 @@ export default function Home(){return <main className="home">
   <div className="home-reading-field">
     <DoorHelper/>
     <section className="notes-promo" aria-labelledby="return-title">
-      <svg className="notebook-icon" aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M4 7c8-2 14-1 20 3 6-4 12-5 20-3v32c-8-2-14-1-20 3-6-4-12-5-20-3Z M24 10v32 M8 10v25 M40 10v25"/></svg>
+      <svg className="notebook-icon" aria-hidden="true" viewBox="2 5 44 39" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 7c8-2 14-1 20 3 6-4 12-5 20-3v32c-8-2-14-1-20 3-6-4-12-5-20-3Z M24 10v32 M8 10v25 M40 10v25"/></svg>
       <div><h2 id="return-title">Return notebook</h2>
       <p>Save the room, the scan requirement and your next objective in your return notebook. Your entries stay on this device.</p>
       <Link className="notebook-action" href="/route-notes/">Open return notebook <Arrow/></Link>
-      <p className="notes-help">What were you going to do next?</p></div>
+      <p className="notes-help">Pick up where you left off. Saved only on this device.</p></div>
     </section>
   </div>
   <AdBanner/>
